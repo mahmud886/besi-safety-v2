@@ -44,7 +44,8 @@ const Footer = () => {
                                     <div className='cta-text'>
                                         <h4>Find us</h4>
                                         <span>
-                                            1010 Avenue, sw 54321, chandigarh
+                                            147/H, Darul Huda Bhaban Green Road,
+                                            Dhaka-1215(lift-5)
                                         </span>
                                     </div>
                                 </div>
@@ -57,7 +58,7 @@ const Footer = () => {
                                     />
                                     <div className='cta-text'>
                                         <h4>Call us</h4>
-                                        <span>9876543210 0</span>
+                                        <span>01925996363</span>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +70,7 @@ const Footer = () => {
                                     />
                                     <div className='cta-text'>
                                         <h4>Mail us</h4>
-                                        <span>mail@info.com</span>
+                                        <span>besiinstitute122@gmail.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -185,12 +186,11 @@ const Footer = () => {
                                 <div className='copyright-text'>
                                     <li className='nav-link'>
                                         Copyright &copy; 2021, All Right
-                                        Reserved <Link to=''>Snigdho</Link> &{' '} {' '}
+                                        Reserved <Link to=''>Snigdho</Link> &{' '}
                                         <Link to=''>Meer</Link>
                                     </li>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

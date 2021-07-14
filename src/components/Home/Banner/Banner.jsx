@@ -4,6 +4,7 @@ import slide2 from '../../../assets/images/slider/safety-slide-2.jpg';
 import slide3 from '../../../assets/images/slider/safety-slide-3.jpg';
 import './Banner.css';
 import { Carousel, Button, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -17,9 +18,8 @@ const Banner = () => {
                         fluid
                     />
                     <Carousel.Caption>
-                        <h2>WE ARE</h2>
                         <h1>
-                            BANGLADESH ENGINEERING <br /> & <br /> SAFETY
+                            WE ARE BANGLADESH ENGINEERING <br /> & <br /> SAFETY
                             INSTITUTE
                         </h1>
                         <p>
@@ -27,9 +27,13 @@ const Banner = () => {
                             that specializes in beautiful and easy-to-use <br />
                             Engineering and safety services.
                         </p>
-                        <Button className='btn btn-main btn-md' type='button'>
-                            GEETING STARTED
-                        </Button>
+                        <Link to='/courses'>
+                            <Button
+                                className='btn btn-main btn-md'
+                                type='button'>
+                                GEETING STARTED
+                            </Button>
+                        </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
@@ -46,14 +50,20 @@ const Banner = () => {
                             and Health.
                         </h3>
                         <p>
-                            NEBOSH which means National Examination Board in
-                            Occupational Safety and Health, are UK based
-                            awarding body that provides various online courses
+                            NEBOSH which means National Examination Board in{' '}
+                            <br />
+                            Occupational Safety and Health, are UK based <br />
+                            awarding body that provides various online courses{' '}
+                            <br />
                             to the student.
                         </p>
-                        <Button className='btn btn-main btn-md' type='button'>
-                            GEETING STARTED
-                        </Button>
+                        <Link to='/nebosh'>
+                            <Button
+                                className='btn btn-main btn-md'
+                                type='button'>
+                                GEETING STARTED
+                            </Button>
+                        </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -70,13 +80,19 @@ const Banner = () => {
                             Safety
                         </h3>
                         <p>
-                            The OTHM Level 6 Diploma in Occupational Health and
-                            Safety is developed to provide a thorough knowledge
+                            The OTHM Level 6 Diploma in Occupational Health and{' '}
+                            <br />
+                            Safety is developed to provide a thorough knowledge{' '}
+                            <br />
                             of health and safety management system.
                         </p>
-                        <Button className='btn btn-main btn-md' type='button'>
-                            GEETING STARTED
-                        </Button>
+                        <Link to='/othm'>
+                            <Button
+                                className='btn btn-main btn-md'
+                                type='button'>
+                                GEETING STARTED
+                            </Button>
+                        </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

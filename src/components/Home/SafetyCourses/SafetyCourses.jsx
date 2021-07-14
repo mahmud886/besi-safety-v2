@@ -75,10 +75,10 @@ const SafetyCourses = () => {
                             style={{ width: '24rem' }}>
                             <Card.Img variant='top' src={safty3} />
                             <Card.Body>
-                                <Card.Title>OTHAM</Card.Title>
+                                <Card.Title>OTHM</Card.Title>
                                 <hr className='navbar-color' />
                                 <Card.Text>
-                                    Brand New course, Level 4 for Process Safety
+                                    Brand New course, Level 6 for Process Safety
                                     Management is suitable for the people across
                                     the globe who work in the oil and gas
                                     sector, chemicals, industries or process

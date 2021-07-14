@@ -58,7 +58,7 @@ const Blog = () => {
             <Container className='mb-5'>
                 <div className='py-5'>
                     <h5 className='navbar-color text-center p-3 rounded h1'>
-                        AOSH
+                        BLOGS
                     </h5>
                 </div>
                 <Row>{blogsCart()}</Row>

@@ -6,20 +6,36 @@ import {
     FormControl,
     Button,
     Card,
+    Form,
 } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import { apiEndpoint } from '../../../../App';
 
 const Result = () => {
     const [results, setResults] = useState([]);
+    const searchResult = (event) => {
+        event.preventDefault();
 
-    useEffect(() => {
-        fetch(`${apiEndpoint}/courseresults`)
-            .then((res) => res.json())
-            .then((results) => {
-                setResults(results);
+        const searchTerm = event.target[0].value;
+
+        // fetch(
+        //     `https://besi-bd.herokuapp.com/api/v1/courseresults?certificate_no=2021-1008`
+        // )
+        fetch(`${apiEndpoint}/courseresults?certificate_no=${searchTerm}`)
+            .then((response) => response.json())
+            .then((data) => {
+                setResults([data]);
             });
-    });
+    };
+    // const [results, setResults] = useState([]);
+
+    // useEffect(() => {
+    //     fetch(`${apiEndpoint}/courseresults`)
+    //         .then((res) => res.json())
+    //         .then((results) => {
+    //             setResults(results);
+    //         });
+    // }, []);
 
     return (
         <>
@@ -31,21 +47,28 @@ const Result = () => {
                 </div>
                 {/* < ------------------------- SEARCH BOX------------------------- >*/}
                 <div className='py-4 w-50 m-auto'>
-                    <InputGroup className='mb-3'>
-                        <FormControl
-                            placeholder='Input Your Certificate No'
-                            aria-label=''
-                            aria-describedby='basic-addon2'
-                        />
-                        <Button className='navbar-color btn btn-main btn-md'>
-                            Search
-                        </Button>
-                    </InputGroup>
+                    <Form onSubmit={searchResult}>
+                        <InputGroup className='mb-3'>
+                            <FormControl
+                                placeholder='Input Your Certificate No'
+                                aria-label=''
+                                aria-describedby='basic-addon2'
+                            />
+                            <Button
+                                className='navbar-color btn btn-main btn-md'
+                                type='submit'>
+                                Search
+                            </Button>
+                        </InputGroup>
+                    </Form>
                 </div>
                 {/* < ------------------------- SEARCH BOX------------------------- /> */}
-                <div className=''>
-                    {results.map((result) => (
-                        <Card style={{ width: '100%' }} className='p-5'>
+                <div className='py-5'>
+                    {results.map((result, key) => (
+                        <Card
+                            key={key}
+                            style={{ width: '100%' }}
+                            className='p-5'>
                             <Card.Header className='text-center navbar-color'>
                                 Student Result
                             </Card.Header>
@@ -61,7 +84,7 @@ const Result = () => {
                                 </p>
                             </Card.Body>
                             <Card.Footer className='navbar-color h3 text-center'>
-                                PASSED
+                                {result.is_passed ? 'PASSED' : 'FAILED'}
                             </Card.Footer>
                         </Card>
                     ))}

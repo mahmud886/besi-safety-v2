@@ -78,23 +78,9 @@ const Courseform = () => {
 
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className='form-group p-2'>
-                                        <select
-                                            name='course'
-                                            id='course'
-                                            className='form-control'>
-                                            <option
-                                                selected='selected'
-                                                disabled='disabled'>
-                                                Select a Course
-                                            </option>
-                                            <option value='nebosh'>
-                                                NEBOSH
-                                            </option>
-                                            <option value='iosh'>IOSH</option>
-                                            <option value='Aosh'>AOSH</option>
-                                            <option value='othm'>OTHM</option>
-                                            <option value='iso'>ISO</option>
-                                        </select>
+                                        <textarea cols='32' rows='3'>
+                                            Message
+                                        </textarea>
                                     </div>
                                 </div>
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>

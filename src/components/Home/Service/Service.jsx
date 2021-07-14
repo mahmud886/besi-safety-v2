@@ -57,8 +57,8 @@ const Service = () => {
                                 />
                             </div>
                             <div className='col-md-9'>
-                                <h4>HIGHFIELD</h4>
-                                <p>Highfield Awarding Body for Compliance.</p>
+                                <h4>OTHM</h4>
+                                <p>Diploma in Occupational Health and Safety</p>
                             </div>
                         </div>
                     </div>
