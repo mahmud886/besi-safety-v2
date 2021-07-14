@@ -1,0 +1,8 @@
+.batch-content h1 {
+    color: black;
+    font-weight: bold;
+}
+.modal-dialog {
+    max-width: 60%;
+    margin: 1.75rem auto;
+}
