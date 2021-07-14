@@ -8,7 +8,7 @@ import {
     Card,
     Form,
 } from 'react-bootstrap';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { apiEndpoint } from '../../../../App';
 
 const Result = () => {
