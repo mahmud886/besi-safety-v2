@@ -6,7 +6,7 @@ const Iso2 = () => {
         <div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className='navbar-color text-center p-3 rounded h1'>
+                    <h2 className='text-center p-3 rounded h1'>
                         ISO <br />
                         <h5>ISO 14001:2015</h5>
                         <h6>Environmental Management Systems</h6>

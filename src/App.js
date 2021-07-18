@@ -23,6 +23,7 @@ import Aosh from './components/Home/Pages/Courses/CourseDetails/Aosh';
 
 import MainForm from './components/Home/UpcomingBatch/MainForm';
 import BlogDetails from './components/Home/Pages/Blog/BlogDetails';
+import SocialBar from './components/Home/SocialBar/SocialBar';
 
 export let apiEndpoint = 'https://besi-bd.herokuapp.com/api/v1';
 
@@ -31,6 +32,7 @@ function App() {
         <>
             <Router>
                 <Navigation />
+                <SocialBar />
                 <Switch>
                     <Route path='/about'>
                         <About />

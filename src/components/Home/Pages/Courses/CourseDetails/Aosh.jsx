@@ -6,7 +6,7 @@ const Aosh = () => {
         <div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className='navbar-color text-center p-3 rounded h1'>
+                    <h2 className=' text-center p-3 rounded h1'>
                         AOSH <br />
                         <h6>APPROVED TRAINING PROVIDER 5059</h6>
                     </h2>

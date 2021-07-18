@@ -78,9 +78,11 @@ const Courseform = () => {
 
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className='form-group p-2'>
-                                        <textarea cols='32' rows='3'>
-                                            Message
-                                        </textarea>
+                                        <input
+                                            className='form-control'
+                                            type='text'
+                                            placeholder='Short message'
+                                        />
                                     </div>
                                 </div>
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>

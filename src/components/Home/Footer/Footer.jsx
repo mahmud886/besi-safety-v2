@@ -9,18 +9,7 @@ import {
     faLocationArrow,
     faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
-import {
-    faFacebookSquare,
-    faTwitterSquare,
-    faWhatsappSquare,
-} from '@fortawesome/free-brands-svg-icons';
 
-const styleIcons = {
-    fontSize: '50px',
-    color: 'white',
-    padding: '0px 0px 10px 0px',
-    marginTop: '0px',
-};
 const styleIcons2 = {
     fontSize: '50px',
     color: 'darkBlue',
@@ -41,12 +30,12 @@ const Footer = () => {
                                         icon={faLocationArrow}
                                         style={styleIcons2}
                                     />
-                                    <div className='cta-text'>
+                                    <div className='cta-text pt-3'>
                                         <h4>Find us</h4>
-                                        <span>
+                                        <div>
                                             147/H, Darul Huda Bhaban Green Road,
                                             Dhaka-1215(lift-5)
-                                        </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +45,7 @@ const Footer = () => {
                                         icon={faPhone}
                                         style={styleIcons2}
                                     />
-                                    <div className='cta-text'>
+                                    <div className='cta-text d-block pt-3'>
                                         <h4>Call us</h4>
                                         <span>01925996363</span>
                                     </div>
@@ -68,7 +57,7 @@ const Footer = () => {
                                         icon={faEnvelope}
                                         style={styleIcons2}
                                     />
-                                    <div className='cta-text'>
+                                    <div className='cta-text pt-3 d-block'>
                                         <h4>Mail us</h4>
                                         <span>besiinstitute122@gmail.com</span>
                                     </div>
@@ -86,6 +75,7 @@ const Footer = () => {
                                                 src={Logo}
                                                 alt=''
                                                 className='img-fluid'
+                                                width='105px'
                                             />
                                         </Link>
                                     </div>
@@ -97,30 +87,6 @@ const Footer = () => {
                                             Courses; furthermore with safety
                                             training, Consultancy solutions.
                                         </p>
-                                    </div>
-                                    <div className='footer-social-icon'>
-                                        <span>Follow us</span>
-
-                                        <Link to=''>
-                                            <FontAwesomeIcon
-                                                icon={faFacebookSquare}
-                                                style={styleIcons}
-                                            />
-                                        </Link>
-
-                                        <Link to=''>
-                                            <FontAwesomeIcon
-                                                icon={faTwitterSquare}
-                                                style={styleIcons}
-                                            />
-                                        </Link>
-                                        <Link to=''>
-                                            <FontAwesomeIcon
-                                                icon={faWhatsappSquare}
-                                                color='white'
-                                                style={styleIcons}
-                                            />
-                                        </Link>
                                     </div>
                                 </div>
                             </div>

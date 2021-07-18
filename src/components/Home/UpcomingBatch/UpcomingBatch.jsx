@@ -46,8 +46,8 @@ const UpcomingBatch = () => {
     return (
         <div className=''>
             <div className='container pt-3 py-5'>
-                <div className='py-3'>
-                    <h4>UPCOMING BATCH SCHEDULES</h4>
+                <div className='py-5 text-center'>
+                    <h1>UPCOMING BATCH SCHEDULES</h1>
                 </div>
                 {courses.map((course, index) => (
                     <UpcomingCourse course={course} key={index} />

@@ -14,17 +14,19 @@ const UpcomingCourse = (props) => {
         <>
             <div className='pt-3'>
                 <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                    <div className='single-batch border shadow-lg navbar-color rounded '>
-                        <div className='row pt-3 py-3 '>
-                            <div className='col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 '>
-                                <div className='batch-content py-5   '>
-                                    <h5 className='display- text-white text-center'>
+                    <div className='single-batch border bg-light  rounded shadow-lg '>
+                        <div className='row pt-3 '>
+                            <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 '>
+                                <div className='batch content py-5 text-center'>
+                                    <button
+                                        className='btn btn-outline-success btn-md h4'
+                                        type='button'>
                                         {reg_last_date}
-                                    </h5>
+                                    </button>
                                 </div>
                             </div>
-                            <div className='col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12'>
-                                <div className='batch-content text-white text-center'>
+                            <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='batch-content text-dark text-center'>
                                     <h4 className='display-5'>
                                         {course_title}
                                     </h4>
@@ -43,9 +45,9 @@ const UpcomingCourse = (props) => {
                                 <div className='batch content py-5 text-center'>
                                     <Link to='/admission-form'>
                                         <button
-                                            className='btn btn-light btn-md'
+                                            className='btn btn-outline-danger btn-md'
                                             type='button'>
-                                            BOOK NOW
+                                            BOOKS NOW
                                         </button>
                                     </Link>
                                 </div>

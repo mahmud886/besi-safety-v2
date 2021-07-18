@@ -9,7 +9,7 @@ const About = () => {
             <div className='container pt-5 py-5'>
                 <div className='row'>
                     <div className='col-xl-4 col-md-4 col-sm-12 col-xs-12'>
-                        <div className='single-section text-center navbar-color'>
+                        <div className='single-section text-center '>
                             <div className='img-section'>
                                 <img
                                     src={chairman}
@@ -33,10 +33,10 @@ const About = () => {
                     </div>
 
                     <div className='col-xl-8 col-md-8 col-sm-12 col-xs-12'>
-                        <div className='single-section border rounded navbar-color'>
+                        <div className='single-section border rounded '>
                             <div className='about-us text-center pt-2'>
                                 <h2 className=''>About Us</h2>
-                                <span className='small navbar-color p-1 rounded'>
+                                <span className='small  p-1 rounded'>
                                     Bangladesh Engineering & Safety Institute
                                 </span>
                             </div>
@@ -50,13 +50,9 @@ const About = () => {
                                 </p>
                                 <p>
                                     BESI PVT. LTD was founded in 2018. We are
-                                    authorized by Bangladesh Govt. (JOINT STOCK
-                                    ) and licensed from vat tax and also
-                                    approved by Ministry of Education . In order
-                                    to bring the consciousness and importance of
-                                    HSE among the professionals, we came forward
-                                    to deliver various international accredited
-                                    training courses.
+                                    authorized by Bangladesh Govt. we came
+                                    forward to deliver various international
+                                    accredited training courses.
                                 </p>
                                 <p>
                                     In industries where innovation occurs with
@@ -89,16 +85,12 @@ const About = () => {
                     </div>
                 </div>
 
-                <hr className='navbar-color' />
-
                 <div className='row'>
                     <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                         <div className='single-mission-vision pt-5 py-5 '>
                             <div className='mission '>
                                 <h4 className=' h2'>Our Misson</h4>
-                                <span className='small navbar-color p-1 rounded'>
-                                    Bangladesh Engineering & Safety Institute
-                                </span>
+
                                 <p className='pt-3'>
                                     To gain a reputation by training, auditing,
                                     consulting and qualifying professionals and
@@ -107,13 +99,10 @@ const About = () => {
                                     quality, productivity, team work and set
                                     exemplary ethical values.
                                 </p>
-                                <hr className='navbar-color' />
+                                <hr />
                             </div>
                             <div className='vision'>
                                 <h4 className='h2'>Our Vison</h4>
-                                <span className='small navbar-color p-1 rounded'>
-                                    Bangladesh Engineering & Safety Institute
-                                </span>
                                 <p className='pt-3'>
                                     To enable aspirants to pursue a successful
                                     OHS qualification. To set and achieve safety
@@ -133,13 +122,11 @@ const About = () => {
                                     stand. We empower the team members to lead
                                     and make decisions.
                                 </p>
-                                <hr className='navbar-color' />
+                                <hr />
                             </div>
                             <div className='why0us'>
                                 <h4 className='h2'>Why Choose Us? </h4>
-                                <span className='small navbar-color p-1 rounded'>
-                                    Bangladesh Engineering & Safety Institute
-                                </span>
+
                                 <p className='pt-3'>
                                     We hold a prominent reputation in our field
                                     with our ability to deliver high-quality
@@ -150,7 +137,7 @@ const About = () => {
                                     quality, productivity and set exemplary
                                     ethical values.
                                 </p>
-                                <hr className='navbar-color' />
+                                <hr />
                             </div>
                         </div>
                     </div>

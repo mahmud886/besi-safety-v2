@@ -5,14 +5,14 @@ const IoshMs = () => {
         <div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className='navbar-color text-center p-3 rounded h1'>
+                    <h2 className=' text-center p-3 rounded h1'>
                         IOSH MS <br />
                         <h6>APPROVED TRAINING PROVIDER 4589</h6>
                     </h2>
                     <div className='row'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
                             <h5 className='h2'>IOSH MS</h5>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
+
                             <p className='m-2'>
                                 Institute of Occupational Safety & Health is a
                                 global organization for health & safety
@@ -25,7 +25,6 @@ const IoshMs = () => {
                                 Managing Safely in Bangladesh and global
                                 grounds.
                             </p>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
                         </div>
                     </div>
 

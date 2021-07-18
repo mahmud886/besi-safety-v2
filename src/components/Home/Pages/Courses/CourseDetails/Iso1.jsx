@@ -6,7 +6,7 @@ const Iso1 = () => {
         <div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className='navbar-color text-center p-3 rounded h1'>
+                    <h2 className='text-center p-3 rounded h1'>
                         ISO <br />
                         <h5>ISO 45001:2018</h5>
                         <h6>Occupational Health & Safety Management Systems</h6>
@@ -15,7 +15,7 @@ const Iso1 = () => {
                     <div className='row'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
                             <h5 className='h2'>ISO 45001:2018</h5>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
+
                             <p className='m-2'>
                                 ISO 45001 is the world’s International standard
                                 for occupational health & safety, issued to
@@ -24,7 +24,6 @@ const Iso1 = () => {
                                 is designed to mitigate factors that can cause
                                 employees and businesses irreparable harm.
                             </p>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
                         </div>
                     </div>
 

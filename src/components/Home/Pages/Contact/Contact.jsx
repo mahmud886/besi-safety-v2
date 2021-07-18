@@ -32,7 +32,7 @@ const Contact = () => {
                     className='fh5co-narrow-content animate-box fadeInLeft animated'
                     data-animate-effect='fadeInLeft'>
                     <div className='row'>
-                        <div className='contact-us pt-3 py-2 border rounded navbar-color'>
+                        <div className='contact-us pt-3 py-2 border rounded '>
                             <div className='text-center'>
                                 <h1>Contact Us:</h1>
                                 <p>
