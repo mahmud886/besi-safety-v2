@@ -49,11 +49,11 @@ const SafetyCourses = () => {
                             style={{ width: '24rem' }}>
                             <Card.Img variant='top' src={safty2} />
                             <Card.Body>
-                                <Card.Title>NEBOSH</Card.Title>
+                                <Card.Title>ISO</Card.Title>
                                 <hr className='navbar-color' />
                                 <Card.Text>
                                     It is essential in the field of safety that
-                                    NEBOSH International General Certificate is
+                                    ISO International General Certificate is
                                     recognized and respected qualification helps
                                     to acquire competence in protecting
                                     workplace safety.

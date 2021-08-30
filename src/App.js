@@ -13,7 +13,7 @@ import Calendar from './components/Home/Pages/Calendar/Calendar';
 import Result from './components/Home/Pages/Result/Result';
 import Contact from './components/Home/Pages/Contact/Contact';
 import Footer from './components/Home/Footer/Footer';
-import Nebosh from './components/Home/Pages/Courses/CourseDetails/Nebosh';
+// import Nebosh from './components/Home/Pages/Courses/CourseDetails/Nebosh';
 import IoshMs from './components/Home/Pages/Courses/CourseDetails/IoshMs';
 import Iso1 from './components/Home/Pages/Courses/CourseDetails/Iso1';
 import Iso2 from './components/Home/Pages/Courses/CourseDetails/Iso2';
@@ -24,6 +24,7 @@ import Aosh from './components/Home/Pages/Courses/CourseDetails/Aosh';
 import MainForm from './components/Home/UpcomingBatch/MainForm';
 import BlogDetails from './components/Home/Pages/Blog/BlogDetails';
 import SocialBar from './components/Home/SocialBar/SocialBar';
+import Elearning from './components/Home/Pages/Elearning/Elearning';
 
 export let apiEndpoint = 'https://besi-bd.herokuapp.com/api/v1';
 
@@ -49,6 +50,10 @@ function App() {
                         <Result />
                     </Route>
 
+                    <Route path='/elearning'>
+                        <Elearning />
+                    </Route>
+
                     <Route path='/blog'>
                         <Blog />
                     </Route>
@@ -59,9 +64,9 @@ function App() {
                         <Contact />
                     </Route>
 
-                    <Route path='/nebosh'>
+                    {/* <Route path='/nebosh'>
                         <Nebosh />
-                    </Route>
+                    </Route> */}
                     <Route path='/ioshms'>
                         <IoshMs />
                     </Route>

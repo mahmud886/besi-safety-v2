@@ -14,7 +14,6 @@ const BlogDetails = () => {
             .then((res) => res.json())
             .then((blogs) => {
                 setBlogs(blogs);
-                console.log(blogs);
             });
     }, [id]);
 

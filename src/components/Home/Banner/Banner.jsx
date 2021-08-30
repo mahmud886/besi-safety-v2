@@ -44,15 +44,15 @@ const Banner = () => {
                         fluid
                     />
                     <Carousel.Caption>
-                        <h1>NEBOSH</h1>
+                        <h1>ISO 45001:2018</h1>
                         <h3>
-                            National Examinition Board in Occupational Safety
-                            and Health.
+                            Occupational Health and Safety Management Systems
                         </h3>
                         <p>
-                            NEBOSH which means National Examination Board in{' '}
-                            <br />
-                            Occupational Safety and Health, are UK based <br />
+                            THis training from BESI PVT LTD – learn how to
+                            perform internally <br />
+                            the second party, third party audits of OHS
+                            management systems <br />
                             awarding body that provides various online courses{' '}
                             <br />
                             to the student.

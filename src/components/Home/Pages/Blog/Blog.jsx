@@ -46,9 +46,9 @@ const Blog = () => {
     });
 
     const blogsCart = () =>
-        blogs.map((singleBlog) => {
+        blogs.map((singleBlog, index) => {
             return (
-                <Col sm={12} xs={12} md={6} lg={3} xl={3}>
+                <Col key={index} sm={12} xs={12} md={6} lg={4} xl={3}>
                     <Blogs singleBlogs={singleBlog} />
                 </Col>
             );

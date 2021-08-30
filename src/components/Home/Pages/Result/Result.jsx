@@ -50,7 +50,7 @@ const Result = () => {
                     <Form onSubmit={searchResult}>
                         <InputGroup className='mb-3'>
                             <FormControl
-                                placeholder='Input Your Certificate No'
+                                placeholder='Input Your Valid Certificate No'
                                 aria-label=''
                                 aria-describedby='basic-addon2'
                             />
@@ -77,9 +77,9 @@ const Result = () => {
                                 <p>
                                     Course Category: {result.student_category}
                                 </p>
-                                <p>Student No: {result.student_no}</p>
+                                <p>Student No: {result.student_serial_no}</p>
                                 <p>
-                                    Student Certificate No:{' '}
+                                    Student Certificate No:
                                     {result.student_certificate_no}
                                 </p>
                             </Card.Body>

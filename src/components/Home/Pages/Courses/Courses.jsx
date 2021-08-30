@@ -10,9 +10,11 @@ const Courses = () => {
                     INTERNATIONAL SAFETY COURSES
                 </h4>
                 <div className='row pt-5 mx-auto'>
-                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+                    {/* <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className='single-courses'>
-                            <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                            <div
+                                className='card mx-auto mb-4'
+                                style={{ width: '300px' }}>
                                 <h5 className='card-header navbar-color text-white text-center'>
                                     NEBOSH
                                 </h5>
@@ -39,11 +41,13 @@ const Courses = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className='single-courses'>
-                            <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                            <div
+                                className='card mx-auto mb-4'
+                                style={{ width: '300px' }}>
                                 <h5 className='card-header navbar-color text-white text-center'>
                                     IOSH MS
                                 </h5>
@@ -74,7 +78,9 @@ const Courses = () => {
                     </div>
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className='single-courses'>
-                            <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                            <div
+                                className='card mx-auto mb-4'
+                                style={{ width: '300px' }}>
                                 <h5 className='card-header navbar-color text-white text-center'>
                                     ISO 45001:2018
                                 </h5>
@@ -85,10 +91,10 @@ const Courses = () => {
                                     </h5>
                                     <hr className='navbar-color' />
                                     <p className='card-text'>
-                                        THis training from BESI PVT LTD
-                                        – learn how to perform internally, the
-                                        second party, third party audits of
-                                        OHS management systems.
+                                        THis training from BESI PVT LTD – learn
+                                        how to perform internally, the second
+                                        party, third party audits of OHS
+                                        management systems.
                                     </p>
                                     <hr className='navbar-color' />
                                     <Link to='/iso1'>
@@ -105,7 +111,9 @@ const Courses = () => {
                     {/*    05   */}
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 '>
                         <div className='single-courses'>
-                            <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                            <div
+                                className='card mx-auto mb-4'
+                                style={{ width: '300px' }}>
                                 <h5 className='card-header navbar-color text-white text-center'>
                                     ISO 14001:2015
                                 </h5>
@@ -135,15 +143,17 @@ const Courses = () => {
                     {/* 06 */}
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className='single-courses'>
-                            <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                            <div
+                                className='card mx-auto mb-4'
+                                style={{ width: '300px' }}>
                                 <h5 className='card-header navbar-color text-white text-center'>
                                     ISO 9001:2015
                                 </h5>
                                 <div className='card-body'>
                                     <h5 className='card-title'>
-                                        The competition with ISO
-                                        9001:2015 certification with an audit
-                                        against this internationally
+                                        The competition with ISO 9001:2015
+                                        certification with an audit against this
+                                        internationally
                                     </h5>
                                     <hr className='navbar-color' />
                                     <p className='card-text'>
@@ -167,14 +177,16 @@ const Courses = () => {
                     {/*  07  */}
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className='single-courses'>
-                            <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                            <div
+                                className='card mx-auto mb-4'
+                                style={{ width: '300px' }}>
                                 <h5 className='card-header navbar-color text-white text-center'>
                                     OTHM
                                 </h5>
                                 <div className='card-body'>
                                     <h5 className='card-title'>
-                                        OTHM : Level 6, Diploma in Occupational Health
-                                        and Safety
+                                        OTHM : Level 6, Diploma in Occupational
+                                        Health and Safety
                                     </h5>
                                     <hr className='navbar-color' />
                                     <p className='card-text'>
@@ -198,23 +210,24 @@ const Courses = () => {
 
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className='single-courses'>
-                            <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                            <div
+                                className='card mx-auto mb-4'
+                                style={{ width: '300px' }}>
                                 <h5 className='card-header navbar-color text-white text-center'>
                                     AOSH
                                 </h5>
                                 <div className='card-body'>
                                     <h5 className='card-title'>
-                                        BESI
-                                        Institute is offering AOSH UK, BESI PVT
-                                        LTD is first and number one AOSH
+                                        BESI Institute is offering AOSH UK, BESI
+                                        PVT LTD is first and number one AOSH
                                         Approved
                                     </h5>
                                     <hr className='navbar-color' />
                                     <p className='card-text'>
-                                        Our ATP No is:
-                                        5059. We Have good tutor panel to
-                                        AOSH training and assist Individuals in
-                                        getting certificate from AOSH (UK).
+                                        Our ATP No is: 5059. We Have good tutor
+                                        panel to AOSH training and assist
+                                        Individuals in getting certificate from
+                                        AOSH (UK).
                                     </p>
                                     <hr className='navbar-color' />
                                     <Link to='/aosh'>
@@ -240,7 +253,9 @@ const Courses = () => {
                     <div className='row pt-5'>
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='single-courses'>
-                                <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                                <div
+                                    className='card mx-auto mb-4'
+                                    style={{ width: '300px' }}>
                                     <h5 className='card-header navbar-color text-white text-center'>
                                         FIRST AID
                                     </h5>
@@ -260,7 +275,9 @@ const Courses = () => {
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='single-courses'>
-                                <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                                <div
+                                    className='card mx-auto mb-4'
+                                    style={{ width: '300px' }}>
                                     <h5 className='card-header navbar-color text-white text-center'>
                                         HEALTH SAFETY
                                     </h5>
@@ -279,7 +296,9 @@ const Courses = () => {
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='single-courses'>
-                                <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                                <div
+                                    className='card mx-auto mb-4'
+                                    style={{ width: '300px' }}>
                                     <h5 className='card-header navbar-color text-white text-center'>
                                         FOOD SAFETY
                                     </h5>
@@ -298,7 +317,9 @@ const Courses = () => {
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='single-courses'>
-                                <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                                <div
+                                    className='card mx-auto mb-4'
+                                    style={{ width: '300px' }}>
                                     <h5 className='card-header navbar-color text-white text-center'>
                                         CONSTRUCTION SAFETY
                                     </h5>
@@ -317,7 +338,9 @@ const Courses = () => {
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='single-courses'>
-                                <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                                <div
+                                    className='card mx-auto mb-4'
+                                    style={{ width: '300px' }}>
                                     <h5 className='card-header navbar-color text-white text-center'>
                                         RISK SAFETY
                                     </h5>
@@ -336,7 +359,9 @@ const Courses = () => {
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='single-courses'>
-                                <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                                <div
+                                    className='card mx-auto mb-4'
+                                    style={{ width: '300px' }}>
                                     <h5 className='card-header navbar-color text-white text-center'>
                                         PERMIT TO WORK SYSTEM
                                     </h5>
@@ -356,7 +381,9 @@ const Courses = () => {
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='single-courses'>
-                                <div className='card mx-auto mb-4' style={{width:'300px'}}>
+                                <div
+                                    className='card mx-auto mb-4'
+                                    style={{ width: '300px' }}>
                                     <h5 className='card-header navbar-color text-white text-center'>
                                         FIRE SAFETY
                                     </h5>

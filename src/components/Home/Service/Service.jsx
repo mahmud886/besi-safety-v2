@@ -1,7 +1,7 @@
 import React from 'react';
 import './Service.css';
 
-import nebosh from '../../../assets/images/services/service1.jpg';
+// import nebosh from '../../../assets/images/services/service1.jpg';
 import iosh from '../../../assets/images/services/service2.jpg';
 import highfield from '../../../assets/images/services/service3.jpg';
 import aosh from '../../../assets/images/services/service4.jpg';
@@ -14,15 +14,15 @@ const Service = () => {
                     <div className='service-single-assets rounded shadow-lg navbar-color p-4 mb-3'>
                         <div className='row'>
                             <div className='col-md-3'>
-                                <img
-                                    src={nebosh}
+                                {/* <img
+                                    src={}
                                     alt=''
                                     className='rounded img-fluid'
-                                />
+                                /> */}
                             </div>
                             <div className='col-md-9'>
-                                <h4>NEBOSH</h4>
-                                <p>National Examination Board in OSH</p>
+                                <h4>ISO</h4>
+                                <p>Occupational Health and Safety Management</p>
                             </div>
                         </div>
                     </div>
