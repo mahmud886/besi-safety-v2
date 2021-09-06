@@ -1,0 +1,17 @@
+.nav-link {
+    color: darkblue;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-color {
+    background: linear-gradient(135deg, #25aae1, #04befe, #3f86ed);
+}
+.inner-nav {
+    background: #e3e0e0;
+}
+.navbar-brand img {
+    width: 12%;
+    height: auto;
+}
