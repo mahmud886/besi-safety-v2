@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
-import { apiEndpoint } from '../../../App';
+import { apiEndpointV1 } from '../../../App';
 import TermsConditions from './TermsConditions';
 
 const MainForm = () => {
@@ -66,7 +66,7 @@ const MainForm = () => {
                 mobile_wallet_provider: mobile_wallet_provider,
             }),
         };
-        fetch(`${apiEndpoint}/coursebookings`, requestOptions)
+        fetch(`${apiEndpointV1}/coursebookings`, requestOptions)
             // .then((response) => response.json())
             .then((data) => alert('All Data Save to database..'));
     };
@@ -85,7 +85,7 @@ const MainForm = () => {
                         {/* 01 */}
                         <Col md={12}>
                             <Form.Group controlId='validationCustom01'>
-                                <Form.Label>Course Applied for</Form.Label>
+                                <Form.Label>Course Applied for *</Form.Label>
                                 <Form.Control
                                     required
                                     type='text'
@@ -101,7 +101,7 @@ const MainForm = () => {
                         <Col md={8}>
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>
-                                    Name of Applicants
+                                    Name of Applicants *
                                 </Form.Label>
                                 <Form.Control
                                     required
@@ -117,7 +117,9 @@ const MainForm = () => {
                         {/* 03  */}
                         <Col md={4}>
                             <Form.Group controlId='validationCustom01'>
-                                <Form.Label className='pt-2'>Mobile</Form.Label>
+                                <Form.Label className='pt-2'>
+                                    Mobile *
+                                </Form.Label>
                                 <Form.Control
                                     required
                                     type='tel'
@@ -136,7 +138,7 @@ const MainForm = () => {
                         <Col md={8}>
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>
-                                    Father's Name of Applicants
+                                    Father's Name of Applicants *
                                 </Form.Label>
                                 <Form.Control
                                     required
@@ -154,9 +156,8 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom01'>
                                 <Form.Label className='pt-2'>Mobile</Form.Label>
                                 <Form.Control
-                                    required
                                     type='tel'
-                                    placeholder='phone number'
+                                    placeholder='Phone Number | Optional'
                                     defaultValue=''
                                 />
                                 <Form.Control.Feedback>
@@ -171,7 +172,7 @@ const MainForm = () => {
                         <Col md={8}>
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>
-                                    Mother's Name of Applicants
+                                    Mother's Name of Applicants *
                                 </Form.Label>
                                 <Form.Control
                                     required
@@ -189,9 +190,8 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom01'>
                                 <Form.Label className='pt-2'>Mobile</Form.Label>
                                 <Form.Control
-                                    required
                                     type='tel'
-                                    placeholder='phone number'
+                                    placeholder='Phone Number | Optional'
                                     defaultValue=''
                                 />
                                 <Form.Control.Feedback>
@@ -208,7 +208,6 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom01'>
                                 <Form.Label className='pt-2'>Gender</Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
                                     placeholder='Male / Female'
                                     defaultValue=''
@@ -224,7 +223,6 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>Email</Form.Label>
                                 <Form.Control
-                                    required
                                     type='email'
                                     placeholder='Your email'
                                     defaultValue='youremail@gmail.com'
@@ -245,7 +243,6 @@ const MainForm = () => {
                                     Marital Status
                                 </Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
                                     placeholder='Married / Unmarried'
                                     defaultValue=''
@@ -260,7 +257,7 @@ const MainForm = () => {
                         <Col md={4}>
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>
-                                    Date of Birth
+                                    Date of Birth *
                                 </Form.Label>
                                 <Form.Control
                                     required
@@ -276,7 +273,7 @@ const MainForm = () => {
                         <Col md={2}>
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>
-                                    Blood Group
+                                    Blood Group *
                                 </Form.Label>
                                 <Form.Control
                                     required
@@ -297,10 +294,9 @@ const MainForm = () => {
                         <Col md={6}>
                             <Form.Group controlId='validationCustom01'>
                                 <Form.Label className='pt-2'>
-                                    Nationality
+                                    Nationality *
                                 </Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
                                     placeholder='Bangladeshi'
                                     defaultValue='Bangladeshi'
@@ -316,7 +312,6 @@ const MainForm = () => {
                                     Religion
                                 </Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
                                     placeholder='Religion'
                                     defaultValue=''
@@ -333,7 +328,7 @@ const MainForm = () => {
                         <Col md={12}>
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>
-                                    Present Address
+                                    Present Address *
                                 </Form.Label>
                                 <Form.Control
                                     required
@@ -352,9 +347,8 @@ const MainForm = () => {
                                     Permanent Address
                                 </Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
-                                    placeholder='Permanent Address'
+                                    placeholder='Permanent Address | Optional'
                                     defaultValue=''
                                 />
                                 <Form.Control.Feedback>
@@ -371,7 +365,6 @@ const MainForm = () => {
                                     Name of Exam
                                 </Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
                                     placeholder='SCC/HSC/Diploma'
                                     defaultValue=''
@@ -388,7 +381,6 @@ const MainForm = () => {
                                     Name of Institute
                                 </Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
                                     placeholder='Name of Institute'
                                     defaultValue=''
@@ -402,7 +394,6 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>Year</Form.Label>
                                 <Form.Control
-                                    required
                                     type='number'
                                     placeholder='Year'
                                     defaultValue=''
@@ -416,7 +407,6 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>Grade</Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
                                     placeholder='Grade'
                                     defaultValue=''
@@ -430,7 +420,6 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label className='pt-2'>Group</Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
                                     placeholder='Group'
                                     defaultValue=''
@@ -446,7 +435,7 @@ const MainForm = () => {
                         {/* Payment */}
                         <Col md={3} className='py-2'>
                             <Form.Group controlId='validationCustom02'>
-                                <Form.Label>Total Payment</Form.Label>
+                                <Form.Label>Total Payment *</Form.Label>
                                 <Form.Control
                                     required
                                     type='number'
@@ -462,9 +451,8 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label>Discount</Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
-                                    placeholder='Discount'
+                                    placeholder='Discount | Optional'
                                     defaultValue=''
                                 />
                                 <Form.Control.Feedback>
@@ -476,9 +464,8 @@ const MainForm = () => {
                             <Form.Group controlId='validationCustom02'>
                                 <Form.Label>Reference</Form.Label>
                                 <Form.Control
-                                    required
                                     type='text'
-                                    placeholder='Reference'
+                                    placeholder='Reference | Optional'
                                     defaultValue=''
                                 />
                                 <Form.Control.Feedback>
@@ -488,7 +475,7 @@ const MainForm = () => {
                         </Col>
                         <Col md={3} className='py-2'>
                             <Form.Group controlId='validationCustom02'>
-                                <Form.Label>Transaction ID</Form.Label>
+                                <Form.Label>Transaction ID *</Form.Label>
                                 <Form.Control
                                     required
                                     type='text'
@@ -502,7 +489,7 @@ const MainForm = () => {
                         </Col>
                         <Col md={2} className='py-2'>
                             <Form.Group controlId='validationCustom02'>
-                                <Form.Label>Transaction Method</Form.Label>
+                                <Form.Label>Transaction Method *</Form.Label>
                                 <Form.Control
                                     required
                                     type='text'

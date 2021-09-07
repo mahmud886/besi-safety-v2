@@ -5,7 +5,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
-import { apiEndpoint } from '../../../../App';
+import { apiEndpointV1 } from '../../../../App';
 
 // const blogData = [
 //     {
@@ -38,7 +38,7 @@ const Blog = () => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
-        fetch(`${apiEndpoint}/blogposts`)
+        fetch(`${apiEndpointV1}/blogposts`)
             .then((res) => res.json())
             .then((blogs) => {
                 setBlogs(blogs);
