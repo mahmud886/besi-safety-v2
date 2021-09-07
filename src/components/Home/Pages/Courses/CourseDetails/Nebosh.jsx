@@ -269,11 +269,11 @@
 //                             </div>
 //                         </div>
 //                         <div className='button-div '>
-//                             <Link to=''>
-//                                 <button className='btn btn-main btn-lg btn-block'>
-//                                     Pay Course
-//                                 </button>
-//                             </Link>
+//                             <Link to='/payment-form'>
+<button className='btn btn-main btn-lg btn-block'>
+Pay Course
+</button>
+</Link>
 //                         </div>
 //                     </div>
 //                 </div>

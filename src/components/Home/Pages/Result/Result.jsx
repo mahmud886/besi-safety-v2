@@ -9,7 +9,7 @@ import {
     Form,
 } from 'react-bootstrap';
 import { useState } from 'react';
-import { apiEndpoint } from '../../../../App';
+import { apiEndpointV1 } from '../../../../App';
 
 const Result = () => {
     const [results, setResults] = useState([]);
@@ -21,7 +21,7 @@ const Result = () => {
         // fetch(
         //     `https://besi-bd.herokuapp.com/api/v1/courseresults?certificate_no=2021-1008`
         // )
-        fetch(`${apiEndpoint}/courseresults?certificate_no=${searchTerm}`)
+        fetch(`${apiEndpointV1}/courseresults?certificate_no=${searchTerm}`)
             .then((response) => response.json())
             .then((data) => {
                 setResults([data]);
@@ -30,7 +30,7 @@ const Result = () => {
     // const [results, setResults] = useState([]);
 
     // useEffect(() => {
-    //     fetch(`${apiEndpoint}/courseresults`)
+    //     fetch(`${apiEndpointV1}/courseresults`)
     //         .then((res) => res.json())
     //         .then((results) => {
     //             setResults(results);

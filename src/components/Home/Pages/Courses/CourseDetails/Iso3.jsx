@@ -243,7 +243,7 @@ const Iso3 = () => {
                                     </div>
                                 </div>
                                 <div className='button-div pt-5'>
-                                    <Link to=''>
+                                    <Link to='/payment-form'>
                                         <button className='btn btn-main btn-lg btn-block'>
                                             Pay Course
                                         </button>

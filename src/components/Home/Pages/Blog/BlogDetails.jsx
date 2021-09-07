@@ -3,14 +3,14 @@ import { useEffect } from 'react';
 import { Container, Card } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 
-import { apiEndpoint } from '../../../../App';
+import { apiEndpointV1 } from '../../../../App';
 
 const BlogDetails = () => {
     const { id } = useParams();
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
-        fetch(`${apiEndpoint}/blogposts/${id}`)
+        fetch(`${apiEndpointV1}/blogposts/${id}`)
             .then((res) => res.json())
             .then((blogs) => {
                 setBlogs(blogs);

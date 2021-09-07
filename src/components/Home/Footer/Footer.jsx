@@ -144,6 +144,17 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='text-center'>
+                        <div className='d-flex justify-content-center pb-4'>
+                            <Link to='/payment'>
+                                <button
+                                    className='btn btn-main btn-md'
+                                    type='submit'>
+                                    Checkout
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
                 <div className='copyright-area'>
                     <div className='container'>
