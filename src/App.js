@@ -40,79 +40,26 @@ function App() {
                 <Navigation />
                 <SocialBar />
                 <Switch>
-                    <Route exact path='/'>
-                        <Homepage />
-                    </Route>
-
-                    <Route exact path='/payment'>
-                        <PaymentForm />
-                    </Route>
-                    <Route exact path='/payment/successful'>
-                        <SuccessPage />
-                    </Route>
-
-                    <Route exact path='/payment/failed'>
-                        <FailurePage />
-                    </Route>
-
-                    <Route exact path='/payment/cancelled'>
-                        <CancelledPage />
-                    </Route>
-
-                    <Route exact path='/courses'>
-                        <Courses />
-                    </Route>
-
-                    {/* <Route exact path='/courses/nebosh'>
-                        <Nebosh />
-                    </Route> */}
-                    <Route exact path='/courses/ioshms'>
-                        <IoshMs />
-                    </Route>
-                    <Route exact path='/courses/iso1'>
-                        <Iso1 />
-                    </Route>
-                    <Route exact path='/courses/iso2'>
-                        <Iso2 />
-                    </Route>
-                    <Route exact path='/courses/iso3'>
-                        <Iso3 />
-                    </Route>
-                    <Route exact path='/courses/othm'>
-                        <Othm />
-                    </Route>
-                    <Route exact path='/courses/aosh'>
-                        <Aosh />
-                    </Route>
-
-                    <Route path='/about'>
-                        <About />
-                    </Route>
-
-                    <Route path='/calendar'>
-                        <Calendar />
-                    </Route>
-                    <Route path='/Result'>
-                        <Result />
-                    </Route>
-
-                    <Route path='/elearning'>
-                        <Elearning />
-                    </Route>
-
-                    <Route path='/blog'>
-                        <Blog />
-                    </Route>
-                    <Route path='/blog-details/:id'>
-                        <BlogDetails />
-                    </Route>
-                    <Route path='/contact'>
-                        <Contact />
-                    </Route>
-
-                    <Route path='/admission-form'>
-                        <MainForm />
-                    </Route>
+                    <Route path='/' exact component={Homepage} />
+                    <Route path='/payment' exact component={PaymentForm} />
+                    <Route path='/payment/successful' components={SuccessPage} />
+                    <Route path='/payment/failed' component={FailurePage} />
+                    <Route path='/payment/cancelled' component={CancelledPage} />
+                    <Route path='/courses' exact component={Courses} />
+                    <Route path='/courses/ioshms' component={IoshMs} />
+                    <Route path='/courses/iso1' component={Iso1} />
+                    <Route path='/courses/iso2' component={Iso2} />
+                    <Route path='/courses/iso2' component={Iso3} />
+                    <Route path='/courses/othm' component={Othm} />
+                    <Route path='/courses/aosh' component={Aosh} />
+                    <Route path='/about' component={About} />
+                    <Route path='/calendar' component={Calendar} />
+                    <Route path='/result' component={Result} />
+                    <Route path='/elearning' component={Elearning} />
+                    <Route path='/blog' exact component={Blog} />
+                    <Route path='/blog/:id' component={BlogDetails} />
+                    <Route path='/contact' component={Contact} />
+                    <Route path='/admission-form' component={MainForm} />
                 </Switch>
                 <Footer />
             </Router>
