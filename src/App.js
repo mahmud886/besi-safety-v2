@@ -12,6 +12,7 @@ import Courses from './components/Home/Pages/Courses/Courses';
 import Calendar from './components/Home/Pages/Calendar/Calendar';
 import Result from './components/Home/Pages/Result/Result';
 import Contact from './components/Home/Pages/Contact/Contact';
+import ErrorPage from './components/Home/Pages/ErrorPage/ErrorPage';
 import Footer from './components/Home/Footer/Footer';
 // import Nebosh from './components/Home/Pages/Courses/CourseDetails/Nebosh';
 import IoshMs from './components/Home/Pages/Courses/CourseDetails/IoshMs';
@@ -60,6 +61,7 @@ function App() {
                     <Route path='/blog/:id' component={BlogDetails} />
                     <Route path='/contact' component={Contact} />
                     <Route path='/admission-form' component={MainForm} />
+                    <Route path='*' component={ErrorPage} />
                 </Switch>
                 <Footer />
             </Router>
