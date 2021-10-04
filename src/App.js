@@ -30,6 +30,7 @@ import PaymentForm from './components/Home/Payment/PaymentForm';
 import SuccessPage from './components/Home/Payment/SuccessPage';
 import FailurePage from './components/Home/Payment/FailurePage';
 import CancelledPage from './components/Home/Payment/CancelledPage';
+import Osha from './components/Home/Pages/Courses/CourseDetails/Osha';
 
 export let apiEndpointV1 = 'https://besi-bd.herokuapp.com/api/v1';
 export let apiEndpointV2 = 'https://besi-bd.herokuapp.com/api/v2';
@@ -43,9 +44,15 @@ function App() {
                 <Switch>
                     <Route path='/' exact component={Homepage} />
                     <Route path='/payment' exact component={PaymentForm} />
-                    <Route path='/payment/successful' components={SuccessPage} />
+                    <Route
+                        path='/payment/successful'
+                        components={SuccessPage}
+                    />
                     <Route path='/payment/failed' component={FailurePage} />
-                    <Route path='/payment/cancelled' component={CancelledPage} />
+                    <Route
+                        path='/payment/cancelled'
+                        component={CancelledPage}
+                    />
                     <Route path='/courses' exact component={Courses} />
                     <Route path='/courses/ioshms' component={IoshMs} />
                     <Route path='/courses/iso1' component={Iso1} />
@@ -53,6 +60,7 @@ function App() {
                     <Route path='/courses/iso2' component={Iso3} />
                     <Route path='/courses/othm' component={Othm} />
                     <Route path='/courses/aosh' component={Aosh} />
+                    <Route path='/courses/osha' component={Osha} />
                     <Route path='/about' component={About} />
                     <Route path='/calendar' component={Calendar} />
                     <Route path='/result' component={Result} />
