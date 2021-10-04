@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const IoshMs = () => {
     return (
@@ -239,9 +240,11 @@ const IoshMs = () => {
                             </div>
                         </div>
                         <div className='button-div '>
-                            <button className='btn btn-main btn-lg btn-block'>
-                                Pay Course
-                            </button>
+                            <Link to='/payment' target='_blank'>
+                                <button className='btn btn-main btn-lg btn-block'>
+                                    Pay Course
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

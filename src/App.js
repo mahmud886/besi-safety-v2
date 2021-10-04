@@ -12,6 +12,7 @@ import Courses from './components/Home/Pages/Courses/Courses';
 import Calendar from './components/Home/Pages/Calendar/Calendar';
 import Result from './components/Home/Pages/Result/Result';
 import Contact from './components/Home/Pages/Contact/Contact';
+import ErrorPage from './components/Home/Pages/ErrorPage/ErrorPage';
 import Footer from './components/Home/Footer/Footer';
 // import Nebosh from './components/Home/Pages/Courses/CourseDetails/Nebosh';
 import IoshMs from './components/Home/Pages/Courses/CourseDetails/IoshMs';
@@ -25,8 +26,13 @@ import MainForm from './components/Home/UpcomingBatch/MainForm';
 import BlogDetails from './components/Home/Pages/Blog/BlogDetails';
 import SocialBar from './components/Home/SocialBar/SocialBar';
 import Elearning from './components/Home/Pages/Elearning/Elearning';
+import PaymentForm from './components/Home/Payment/PaymentForm';
+import SuccessPage from './components/Home/Payment/SuccessPage';
+import FailurePage from './components/Home/Payment/FailurePage';
+import CancelledPage from './components/Home/Payment/CancelledPage';
 
-export let apiEndpoint = 'https://besi-bd.herokuapp.com/api/v1';
+export let apiEndpointV1 = 'https://besi-bd.herokuapp.com/api/v1';
+export let apiEndpointV2 = 'https://besi-bd.herokuapp.com/api/v2';
 
 function App() {
     return (
@@ -35,64 +41,27 @@ function App() {
                 <Navigation />
                 <SocialBar />
                 <Switch>
-                    <Route path='/about'>
-                        <About />
-                    </Route>
-
-                    <Route path='/courses'>
-                        <Courses />
-                    </Route>
-
-                    <Route path='/calendar'>
-                        <Calendar />
-                    </Route>
-                    <Route path='/Result'>
-                        <Result />
-                    </Route>
-
-                    <Route path='/elearning'>
-                        <Elearning />
-                    </Route>
-
-                    <Route path='/blog'>
-                        <Blog />
-                    </Route>
-                    <Route path='/blog-details/:id'>
-                        <BlogDetails />
-                    </Route>
-                    <Route path='/contact'>
-                        <Contact />
-                    </Route>
-
-                    {/* <Route path='/nebosh'>
-                        <Nebosh />
-                    </Route> */}
-                    <Route path='/ioshms'>
-                        <IoshMs />
-                    </Route>
-                    <Route path='/iso1'>
-                        <Iso1 />
-                    </Route>
-                    <Route path='/iso2'>
-                        <Iso2 />
-                    </Route>
-                    <Route path='/iso3'>
-                        <Iso3 />
-                    </Route>
-                    <Route path='/othm'>
-                        <Othm />
-                    </Route>
-                    <Route path='/aosh'>
-                        <Aosh />
-                    </Route>
-
-                    <Route path='/admission-form'>
-                        <MainForm />
-                    </Route>
-
-                    <Route path='/'>
-                        <Homepage />
-                    </Route>
+                    <Route path='/' exact component={Homepage} />
+                    <Route path='/payment' exact component={PaymentForm} />
+                    <Route path='/payment/successful' components={SuccessPage} />
+                    <Route path='/payment/failed' component={FailurePage} />
+                    <Route path='/payment/cancelled' component={CancelledPage} />
+                    <Route path='/courses' exact component={Courses} />
+                    <Route path='/courses/ioshms' component={IoshMs} />
+                    <Route path='/courses/iso1' component={Iso1} />
+                    <Route path='/courses/iso2' component={Iso2} />
+                    <Route path='/courses/iso2' component={Iso3} />
+                    <Route path='/courses/othm' component={Othm} />
+                    <Route path='/courses/aosh' component={Aosh} />
+                    <Route path='/about' component={About} />
+                    <Route path='/calendar' component={Calendar} />
+                    <Route path='/result' component={Result} />
+                    <Route path='/elearning' component={Elearning} />
+                    <Route path='/blog' exact component={Blog} />
+                    <Route path='/blog/:id' component={BlogDetails} />
+                    <Route path='/contact' component={Contact} />
+                    <Route path='/admission-form' component={MainForm} />
+                    <Route path='*' component={ErrorPage} />
                 </Switch>
                 <Footer />
             </Router>

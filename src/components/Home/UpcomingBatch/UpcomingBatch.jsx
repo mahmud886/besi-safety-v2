@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import './UpcomingBatch.css';
 import UpcomingCourse from './UpcomingCourse';
-import { apiEndpoint } from '../../../App';
+import { apiEndpointV1 } from '../../../App';
 
 // const courseData = [
 //     {
@@ -36,7 +36,7 @@ const UpcomingBatch = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch(`${apiEndpoint}/booknows`)
+        fetch(`${apiEndpointV1}/booknows`)
             .then((res) => res.json())
             .then((courses) => {
                 setCourses(courses);

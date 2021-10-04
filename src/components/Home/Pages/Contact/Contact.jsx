@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import { apiEndpoint } from '../../../../App';
+import { apiEndpointV1 } from '../../../../App';
 
 const Contact = () => {
     const createMessage = (e) => {
@@ -20,7 +20,7 @@ const Contact = () => {
                 message: message,
             }),
         };
-        fetch(`${apiEndpoint}/contactus`, requestOptions)
+        fetch(`${apiEndpointV1}/contactus`, requestOptions)
             // .then((response) => response.json())
             .then((data) => alert('Message Send'));
     };

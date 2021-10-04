@@ -163,7 +163,7 @@ const Iso2 = () => {
                                     </div>
                                 </div>
                                 <div className='button-div pt-3'>
-                                    <Link to=''>
+                                    <Link to='/payment-form'>
                                         <button className='btn btn-main btn-lg btn-block'>
                                             Pay Course
                                         </button>

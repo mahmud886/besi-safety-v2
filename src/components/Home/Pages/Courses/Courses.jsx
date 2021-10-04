@@ -31,7 +31,7 @@ const Courses = () => {
                                         various online courses to the student.
                                     </p>
                                     <hr className='navbar-color' />
-                                    <Link to='/nebosh'>
+                                    <Link to='/courses/nebosh'>
                                         <button
                                             className='btn btn-main btn-md'
                                             type='button'>
@@ -65,7 +65,7 @@ const Courses = () => {
                                         them.
                                     </p>
                                     <hr className='navbar-color' />
-                                    <Link to='/ioshms'>
+                                    <Link to='/courses/ioshms'>
                                         <button
                                             className='btn btn-main btn-md'
                                             type='button'>
@@ -97,7 +97,7 @@ const Courses = () => {
                                         management systems.
                                     </p>
                                     <hr className='navbar-color' />
-                                    <Link to='/iso1'>
+                                    <Link to='/courses/iso1'>
                                         <button
                                             className='btn btn-main btn-md'
                                             type='button'>
@@ -129,7 +129,7 @@ const Courses = () => {
                                         environmental management systems.
                                     </p>
                                     <hr className='navbar-color' />
-                                    <Link to='/iso2'>
+                                    <Link to='/courses/iso2'>
                                         <button
                                             className='btn btn-main btn-md'
                                             type='button'>
@@ -163,7 +163,7 @@ const Courses = () => {
                                         performance.
                                     </p>
                                     <hr className='navbar-color' />
-                                    <Link to='/iso3'>
+                                    <Link to='/courses/iso3'>
                                         <button
                                             className='btn btn-main btn-md'
                                             type='button'>
@@ -196,7 +196,7 @@ const Courses = () => {
                                         and safety management system.
                                     </p>
                                     <hr className='navbar-color' />
-                                    <Link to='othm'>
+                                    <Link to='/courses/othm'>
                                         <button
                                             className='btn btn-main btn-md'
                                             type='button'>
@@ -230,7 +230,7 @@ const Courses = () => {
                                         AOSH (UK).
                                     </p>
                                     <hr className='navbar-color' />
-                                    <Link to='/aosh'>
+                                    <Link to='/courses/aosh'>
                                         <button
                                             className='btn btn-main btn-md'
                                             type='button'>

@@ -157,7 +157,7 @@ const Iso1 = () => {
                                     </div>
                                 </div>
                                 <div className='button-div pt-3'>
-                                    <Link to=''>
+                                    <Link to='/payment' target='_blank'>
                                         <button className='btn btn-main btn-lg btn-block'>
                                             Pay Course
                                         </button>
