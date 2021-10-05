@@ -32,7 +32,7 @@ const Contact = () => {
                     className='fh5co-narrow-content animate-box fadeInLeft animated'
                     data-animate-effect='fadeInLeft'>
                     <div className='row'>
-                        <div className='contact-us pt-3 py-2 border rounded '>
+                        <div className='contact-us pt-3 py-2 bg-light shadow-sm rounded '>
                             <div className='text-center'>
                                 <h1>Contact Us:</h1>
                                 <p>
@@ -96,12 +96,11 @@ const Contact = () => {
                         </div>
                     </div>
                     <br />
-                    <br />
 
                     <form action='' onSubmit={createMessage}>
-                        <div className='row'>
+                        <div className='row bg-light shadow-sm rounded py-5'>
                             <div className='col-md-10 col-md-offset-1'>
-                                <div className='row'>
+                                <div className='row '>
                                     <div className='col-md-6'>
                                         <div className='form-group'>
                                             <input

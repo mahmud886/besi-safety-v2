@@ -5,6 +5,7 @@ import Courseform from './../Courseform/Courseform';
 import SafetyCourses from './../SafetyCourses/SafetyCourses';
 import Counter from './../Counter/Counter';
 import UpcomingBatch from './../UpcomingBatch/UpcomingBatch';
+import Testimonial from '../../Testimonial/Testimonial';
 
 const Header = () => {
     return (
@@ -15,7 +16,7 @@ const Header = () => {
             <SafetyCourses />
             <Counter />
             <UpcomingBatch />
-
+            <Testimonial />
         </div>
     );
 };

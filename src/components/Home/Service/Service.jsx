@@ -11,7 +11,7 @@ const Service = () => {
         <div className='container-fluid pt-5 py-5'>
             <div className='row'>
                 <div className='col-md-6 col-sm-12 col-xl-3 '>
-                    <div className='service-single-assets rounded shadow-lg navbar-color p-4 mb-3'>
+                    <div className='service-single-assets rounded shadow-sm navbar-color p-4 mb-3'>
                         <div className='row'>
                             <div className='col-md-4'>
                                 <img
@@ -29,7 +29,7 @@ const Service = () => {
                 </div>
 
                 <div className='col-md-6 col-sm-12 col-xl-3'>
-                    <div className='service-single-assets rounded shadow-lg navbar-color p-4 mb-3'>
+                    <div className='service-single-assets rounded shadow-sm navbar-color p-4 mb-3'>
                         <div className='row'>
                             <div className='col-md-4'>
                                 <img
@@ -47,7 +47,7 @@ const Service = () => {
                 </div>
 
                 <div className='col-md-6 col-sm-12 col-xl-3 '>
-                    <div className='service-single-assets navbar-color rounded shadow-lg p-4 mb-3'>
+                    <div className='service-single-assets navbar-color rounded shadow-sm p-4 mb-3'>
                         <div className='row'>
                             <div className='col-md-4'>
                                 <img
@@ -65,7 +65,7 @@ const Service = () => {
                 </div>
 
                 <div className='col-md-4 col-sm-12 col-xl-3 '>
-                    <div className='service-single-assets navbar-color rounded shadow-lg p-4 mb-3'>
+                    <div className='service-single-assets navbar-color rounded shadow-sm p-4 mb-3'>
                         <div className='row'>
                             <div className='col-md-4'>
                                 <img
@@ -82,7 +82,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className='col-md-6 col-sm-12 col-xl-3 '>
-                    <div className='service-single-assets navbar-color rounded shadow-lg p-4 mb-3'>
+                    <div className='service-single-assets navbar-color rounded shadow-sm p-4 mb-3'>
                         <div className='row'>
                             <div className='col-md-4'>
                                 <img

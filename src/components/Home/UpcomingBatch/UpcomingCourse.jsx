@@ -14,7 +14,7 @@ const UpcomingCourse = (props) => {
         <>
             <div className='pt-3'>
                 <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                    <div className='single-batch border bg-light  rounded shadow-lg '>
+                    <div className='single-batch bg-light  rounded shadow-sm '>
                         <div className='row pt-3 '>
                             <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 '>
                                 <div className='batch content py-5 text-center'>
