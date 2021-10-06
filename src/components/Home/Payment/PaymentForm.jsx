@@ -27,12 +27,19 @@ const PaymentForm = () => {
                 cus_email: customerEmail,
                 cus_phone: customerPhone,
                 product_name: productName,
-                product_price: coursePrice,
+                total_amount: coursePrice,
                 cus_add1: customerAddress,
                 cus_city: customerCity,
                 cus_state: customerState,
                 cus_postcode: customerPostCode,
                 cus_country: customerCountry,
+                // shipping and customer details are similar
+                ship_name: customerName,
+                ship_add1: customerAddress,
+                ship_city: customerCity,
+                ship_state: customerState,
+                ship_postcode: customerPostCode,
+                ship_country: customerCountry
             }),
         };
         fetch(`${apiEndpointV2}/payment/initiate-transaction`, requestOptions)

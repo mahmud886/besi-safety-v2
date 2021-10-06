@@ -10,6 +10,7 @@ import {
 } from 'react-bootstrap';
 import { useState } from 'react';
 import { apiEndpointV1 } from '../../../../App';
+import Contact from '../Contact/Contact';
 
 const Result = () => {
     const [results, setResults] = useState([]);
@@ -89,6 +90,7 @@ const Result = () => {
                         </Card>
                     ))}
                 </div>
+                <Contact />
             </Container>
         </>
     );

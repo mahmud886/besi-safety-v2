@@ -39,8 +39,10 @@ const Courseform = () => {
                         </p>
                     </div>
                 </div>
-                <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 bg-white rounded m-0 p-0 '>
-                    <div className='card mx-auto' style={{ width: 'auto' }}>
+                <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12'>
+                    <div
+                        className='card mx-auto shadow-sm bg-light'
+                        style={{ width: 'auto' }}>
                         <div className='card-header navbar-color text-center'>
                             <h6>GET IN TOUCH</h6>
                         </div>

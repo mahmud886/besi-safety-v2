@@ -20,7 +20,7 @@ const SafetyCourses = () => {
                 <Row className='pt-4 mr-sm-auto'>
                     <Col xs={12} md={12} lg={4} xl={4} sm={12}>
                         <Card
-                            className='mx-auto mb-3'
+                            className='mx-auto mb-3 shadow-sm bg-light'
                             style={{ width: '24rem' }}>
                             <Card.Img variant='top' src={safty1} />
                             <Card.Body>
@@ -45,7 +45,7 @@ const SafetyCourses = () => {
                     </Col>
                     <Col xs={12} md={12} lg={4} xl={4} sm={12}>
                         <Card
-                            className='mx-auto mb-3'
+                            className='mx-auto mb-3 shadow-sm bg-light'
                             style={{ width: '24rem' }}>
                             <Card.Img variant='top' src={safty2} />
                             <Card.Body>
@@ -58,7 +58,7 @@ const SafetyCourses = () => {
                                     to acquire competence in protecting
                                     workplace safety.
                                 </Card.Text>
-                                <hr className='navbar-color' />
+                                <hr className='navbar-color ' />
                                 <LinkContainer to='/courses'>
                                     <button
                                         className={'btn btn-main btn-md'}
@@ -71,7 +71,7 @@ const SafetyCourses = () => {
                     </Col>
                     <Col xs={12} md={12} lg={4} xl={4} sm={12}>
                         <Card
-                            className='mx-auto mb-3'
+                            className='mx-auto mb-3 shadow-sm bg-light'
                             style={{ width: '24rem' }}>
                             <Card.Img variant='top' src={safty3} />
                             <Card.Body>

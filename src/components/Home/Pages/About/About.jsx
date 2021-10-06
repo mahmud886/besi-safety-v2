@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import chairman from '../../../../assets/images/chairman.png';
 import missionVison from '../../../../assets/images/mission-vision.jpg';
+import Contact from '../Contact/Contact';
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
             <div className='container pt-5 py-5'>
                 <div className='row'>
                     <div className='col-xl-4 col-md-4 col-sm-12 col-xs-12'>
-                        <div className='single-section text-center '>
+                        <div className='single-section text-center shadow-sm'>
                             <div className='img-section'>
                                 <img
                                     src={chairman}
@@ -17,7 +18,7 @@ const About = () => {
                                     className='rounded'
                                 />
                             </div>
-                            <div className='single-section-content border rounded'>
+                            <div className='single-section-content  bg-light rounded'>
                                 <div className='chairman-content pt-3'>
                                     <h4>MR. MAFIJUL ISLAM ANIK</h4>
                                     <p>(FOUNDER & CHAIRMAN)</p>
@@ -99,7 +100,6 @@ const About = () => {
                                     quality, productivity, team work and set
                                     exemplary ethical values.
                                 </p>
-                                <hr />
                             </div>
                             <div className='vision'>
                                 <h4 className='h2'>Our Vison</h4>
@@ -122,7 +122,6 @@ const About = () => {
                                     stand. We empower the team members to lead
                                     and make decisions.
                                 </p>
-                                <hr />
                             </div>
                             <div className='why0us'>
                                 <h4 className='h2'>Why Choose Us? </h4>
@@ -137,7 +136,6 @@ const About = () => {
                                     quality, productivity and set exemplary
                                     ethical values.
                                 </p>
-                                <hr />
                             </div>
                         </div>
                     </div>
@@ -151,6 +149,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <Contact />
             </div>
         </div>
     );

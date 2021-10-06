@@ -1,6 +1,7 @@
 import React from 'react';
 import './Courses.css';
 import { Link } from 'react-router-dom';
+import Contact from '../Contact/Contact';
 
 const Courses = () => {
     return (
@@ -11,7 +12,7 @@ const Courses = () => {
                 </h4>
                 <div className='row pt-5 mx-auto'>
                     {/* <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-courses'>
+                        <div className='single-courses shadow-sm'>
                             <div
                                 className='card mx-auto mb-4'
                                 style={{ width: '300px' }}>
@@ -44,7 +45,7 @@ const Courses = () => {
                     </div> */}
 
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-courses'>
+                        <div className='single-courses shadow-sm'>
                             <div
                                 className='card mx-auto mb-4'
                                 style={{ width: '300px' }}>
@@ -77,7 +78,7 @@ const Courses = () => {
                         </div>
                     </div>
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-courses'>
+                        <div className='single-courses shadow-sm'>
                             <div
                                 className='card mx-auto mb-4'
                                 style={{ width: '300px' }}>
@@ -110,7 +111,7 @@ const Courses = () => {
                     </div>
                     {/*    05   */}
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 '>
-                        <div className='single-courses'>
+                        <div className='single-courses shadow-sm'>
                             <div
                                 className='card mx-auto mb-4'
                                 style={{ width: '300px' }}>
@@ -142,7 +143,7 @@ const Courses = () => {
                     </div>
                     {/* 06 */}
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-courses'>
+                        <div className='single-courses shadow-sm'>
                             <div
                                 className='card mx-auto mb-4'
                                 style={{ width: '300px' }}>
@@ -176,7 +177,7 @@ const Courses = () => {
                     </div>
                     {/*  07  */}
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-courses'>
+                        <div className='single-courses shadow-sm'>
                             <div
                                 className='card mx-auto mb-4'
                                 style={{ width: '300px' }}>
@@ -209,7 +210,7 @@ const Courses = () => {
                     </div>
 
                     <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-courses'>
+                        <div className='single-courses shadow-sm'>
                             <div
                                 className='card mx-auto mb-4'
                                 style={{ width: '300px' }}>
@@ -241,6 +242,42 @@ const Courses = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 '>
+                        <div className='single-courses shadow-sm'>
+                            <div
+                                className='card mx-auto mb-4'
+                                style={{ width: '300px' }}>
+                                <h5 className='card-header navbar-color text-white text-center'>
+                                    OSHA
+                                </h5>
+                                <div className='card-body'>
+                                    <h5 className='card-title'>
+                                        BESI Institute is offering OSHA BESI PVT
+                                        LTD is first and number one OSHA
+                                        Approved
+                                    </h5>
+                                    <hr className='navbar-color' />
+                                    <p className='card-text'>
+                                        IASP OSHA 30-hour General Industry
+                                        Course has been designed to deliver
+                                        various training to working
+                                        professionals with health and safety
+                                        responsibility.
+                                    </p>
+                                    <hr className='navbar-color' />
+                                    <Link to='/courses/osha'>
+                                        <button
+                                            className='btn btn-main btn-md'
+                                            type='button'>
+                                            SEE DETAILS
+                                        </button>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* New Crouse */}
                 </div>
 
@@ -252,7 +289,7 @@ const Courses = () => {
                     </h4>
                     <div className='row pt-5'>
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                            <div className='single-courses'>
+                            <div className='single-courses shadow-sm'>
                                 <div
                                     className='card mx-auto mb-4'
                                     style={{ width: '300px' }}>
@@ -274,7 +311,7 @@ const Courses = () => {
                         </div>
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                            <div className='single-courses'>
+                            <div className='single-courses shadow-sm'>
                                 <div
                                     className='card mx-auto mb-4'
                                     style={{ width: '300px' }}>
@@ -295,7 +332,7 @@ const Courses = () => {
                         </div>
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                            <div className='single-courses'>
+                            <div className='single-courses shadow-sm'>
                                 <div
                                     className='card mx-auto mb-4'
                                     style={{ width: '300px' }}>
@@ -316,7 +353,7 @@ const Courses = () => {
                         </div>
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                            <div className='single-courses'>
+                            <div className='single-courses shadow-sm'>
                                 <div
                                     className='card mx-auto mb-4'
                                     style={{ width: '300px' }}>
@@ -337,7 +374,7 @@ const Courses = () => {
                         </div>
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                            <div className='single-courses'>
+                            <div className='single-courses shadow-sm'>
                                 <div
                                     className='card mx-auto mb-4'
                                     style={{ width: '300px' }}>
@@ -358,7 +395,7 @@ const Courses = () => {
                         </div>
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                            <div className='single-courses'>
+                            <div className='single-courses shadow-sm'>
                                 <div
                                     className='card mx-auto mb-4'
                                     style={{ width: '300px' }}>
@@ -380,7 +417,7 @@ const Courses = () => {
                         </div>
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                            <div className='single-courses'>
+                            <div className='single-courses shadow-sm'>
                                 <div
                                     className='card mx-auto mb-4'
                                     style={{ width: '300px' }}>
@@ -404,6 +441,7 @@ const Courses = () => {
                     </div>
                 </div>
             </div>
+            <Contact />
         </div>
     );
 };
