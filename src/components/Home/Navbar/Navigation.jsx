@@ -68,7 +68,7 @@ const Navigation = () => {
                                     <LinkContainer to='/result'>
                                         <Nav.Link>Result</Nav.Link>
                                     </LinkContainer>
-                                    <LinkContainer to='/elearning'>
+                                    <LinkContainer to='/elearn'>
                                         <Nav.Link>E-Learning</Nav.Link>
                                     </LinkContainer>
                                     <LinkContainer to='/blog'>

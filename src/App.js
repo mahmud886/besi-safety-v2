@@ -1,3 +1,4 @@
+import { createContext, useState } from 'react';
 import './App.css';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -34,52 +35,87 @@ import Osha from './components/Home/Pages/Courses/CourseDetails/Osha';
 import MissonVision from './components/Home/Pages/About/MissonVision';
 import Accreditation from './components/Home/Pages/About/Accreditation';
 import OurPolicy from './components/Home/Pages/About/OurPolicy';
+import Login from './components/Login/Login';
+import Hero from './components/Login/Hero';
+
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import ElearningMain from './components/Home/Pages/Elearning/ElearningMain';
+import ElearnIso1 from './components/Home/Pages/Elearning/ElearingPages/ElearnIso1';
+import ElearnOsha from './components/Home/Pages/Elearning/ElearingPages/ElearnOsha';
 
 export let apiEndpointV1 = 'https://besi-bd.herokuapp.com/api/v1';
 export let apiEndpointV2 = 'https://besi-bd.herokuapp.com/api/v2';
 
+export const userContext = createContext();
+
 function App() {
+    const [loggedInUser, setLoggedInUser] = useState({});
     return (
         <>
-            <Router>
-                <Navigation />
-                <SocialBar />
-                <Switch>
-                    <Route path='/' exact component={Homepage} />
-                    <Route path='/payment' exact component={PaymentForm} />
-                    <Route
-                        path='/payment/successful'
-                        components={SuccessPage}
-                    />
-                    <Route path='/payment/failed' component={FailurePage} />
-                    <Route
-                        path='/payment/cancelled'
-                        component={CancelledPage}
-                    />
-                    <Route path='/courses' exact component={Courses} />
-                    <Route path='/courses/ioshms' component={IoshMs} />
-                    <Route path='/courses/iso1' component={Iso1} />
-                    <Route path='/courses/iso2' component={Iso2} />
-                    <Route path='/courses/iso3' component={Iso3} />
-                    <Route path='/courses/othm' component={Othm} />
-                    <Route path='/courses/aosh' component={Aosh} />
-                    <Route path='/courses/osha' component={Osha} />
-                    <Route path='/about' component={About} />
-                    <Route path='/mission-vision' component={MissonVision} />
-                    <Route path='/accreditation' component={Accreditation} />
-                    <Route path='/our-policy' component={OurPolicy} />
+            <userContext.Provider value={[loggedInUser, setLoggedInUser]}>
+                <Router>
+                    <Navigation />
+                    <SocialBar />
+                    <Switch>
+                        <Route path='/' exact component={Homepage} />
+                        <Route path='/payment' exact component={PaymentForm} />
+                        <Route
+                            path='/payment/successful'
+                            components={SuccessPage}
+                        />
+                        <Route path='/payment/failed' component={FailurePage} />
+                        <Route
+                            path='/payment/cancelled'
+                            component={CancelledPage}
+                        />
+                        <Route path='/courses' exact component={Courses} />
+                        <Route path='/courses/ioshms' component={IoshMs} />
+                        <Route path='/courses/iso1' component={Iso1} />
+                        <Route path='/courses/iso2' component={Iso2} />
+                        <Route path='/courses/iso3' component={Iso3} />
+                        <Route path='/courses/othm' component={Othm} />
+                        <Route path='/courses/aosh' component={Aosh} />
+                        <Route path='/courses/osha' component={Osha} />
+                        <Route path='/about' component={About} />
+                        <Route
+                            path='/mission-vision'
+                            component={MissonVision}
+                        />
+                        <Route
+                            path='/accreditation'
+                            component={Accreditation}
+                        />
+                        <Route path='/our-policy' component={OurPolicy} />
 
-                    <Route path='/calendar' component={Calendar} />
-                    <Route path='/result' component={Result} />
-                    <Route path='/elearning' component={Elearning} />
-                    <Route path='/blog' exact component={Blog} />
-                    <Route path='/blog-details/:id' component={BlogDetails} />
-                    <Route path='/contact' component={Contact} />
-                    <Route path='/admission-form' component={MainForm} />
-                    <Route path='*' component={ErrorPage} />
-                </Switch>
-                <Footer />
-            </Router>
+                        <Route path='/calendar' component={Calendar} />
+                        <Route path='/result' component={Result} />
+
+                        <Route path='/elearn' exact component={ElearningMain} />
+
+                        <PrivateRoute path='/elearn/iso1'>
+                            <ElearnIso1 />
+                        </PrivateRoute>
+                        <PrivateRoute path='/elearn/osha'>
+                            <ElearnOsha />
+                        </PrivateRoute>
+                        <PrivateRoute path='/elearning'>
+                            <Elearning />
+                        </PrivateRoute>
+
+                        <Route path='/blog' exact component={Blog} />
+                        <Route
+                            path='/blog-details/:id'
+                            component={BlogDetails}
+                        />
+                        <Route path='/contact' component={Contact} />
+                        <Route path='/admission-form' component={MainForm} />
+                        <Route path='/login' component={Login} />
+                        <Route path='/hero' component={Hero} />
+                        <Route path='*' component={ErrorPage} />
+                    </Switch>
+                    <Footer />
+                </Router>
+            </userContext.Provider>
         </>
     );
 }

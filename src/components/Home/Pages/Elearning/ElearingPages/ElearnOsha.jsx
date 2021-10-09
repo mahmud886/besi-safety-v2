@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Elearning = ({ handleLogout }) => {
+const ElearnOsha = () => {
     return (
-        <>
+        <div>
             <div className='container py-5'>
                 <div className=' text-center'>
-                    <h2>ISO 45001:2018</h2>
-                    <h5>Occupational Health & Safety Management Systems</h5>
+                    <h2>OSHA USA</h2>
+                    <h5>Occupational safety and Health Administration</h5>
                 </div>
                 <div className='container py-5'>
                     <div className='bg-light rounded'>
@@ -36,9 +36,8 @@ const Elearning = ({ handleLogout }) => {
                                     <p>
                                         <span>Get Started</span>
                                     </p>
-                                    <button
-                                        className='btn btn-main'
-                                        onClick={handleLogout}>
+
+                                    <button className='btn btn-main'>
                                         Logout
                                     </button>
                                 </div>
@@ -75,61 +74,49 @@ const Elearning = ({ handleLogout }) => {
                     <div className=''>
                         <h4>Course Descriptions</h4>
                         <p>
-                            ISO 45001 is the world’s International standard for
-                            occupational health & safety, issued to protect
-                            employees and visitors from work related accidents
-                            and diseases. ISO 45001 certification is designed to
-                            mitigate factors that can cause employees and
-                            businesses irreparable harm.
+                            Occupational safety and Health Administration is a
+                            certificate for health & safety professionals. It
+                            has two courses, OSHA Construction Safety & OSHA
+                            Industrial Safety. Each of these courses are
+                            comprised of two variations - OSHA 10 Hours and OSHA
+                            30 Hours. These courses train students to avoid
+                            hazards in workplace
                         </p>
                     </div>
 
                     <div className='pt-2'>
-                        <h4>Aim or Purpose(why this course)</h4>
-                        <ul className='list-group'>
-                            <li className='list-group-item'>
-                                • To improve safety and health of employees and
-                                other stakeholders.
-                            </li>
-                            <li className='list-group-item'>
-                                • To benefit a company and its’ overall
-                                businesses.
-                            </li>
-                        </ul>
-                    </div>
-                    <div className='pt-2'>
                         <h4>Who can attend?</h4>
-                        <p>
-                            As this course is about safety issues, anyone from
-                            any background and organization can attend this
-                            course.
-                        </p>
-                    </div>
-                    <div className='pt-2'>
-                        <h4>Benefits of ISO 14001:2015</h4>
                         <ul className='list-group'>
                             <li className='list-group-item'>
-                                • Improve hazard identification and risk
-                                assessment
+                                • OSHA 10 Hours: this course is for the entry
+                                level workers who work in construction and in
+                                industries (Basic level)
                             </li>
                             <li className='list-group-item'>
-                                • Reduces overall cost of incidents at the
-                                workplace and the number of premiums claimed
-                            </li>
-                            <li className='list-group-item'>
-                                • Enhances the involvement of leadership and
-                                participation from workers.
-                            </li>
-                            <li className='list-group-item'>
-                                • Enhances organizations’ performances.
-                            </li>
-                            <li className='list-group-item'>
-                                • This course will lead towards fewer workplace
-                                injuries and illnesses which will eventually
-                                result into more productivity
+                                • OSHA 30 Hours: this courses is for the
+                                supervisors and higher level workers at the
+                                construction site (Advanced Level)
                             </li>
                         </ul>
                     </div>
+                    <div className='pt-2'>
+                        <h4>Course features</h4>
+                        <ul className='list-group'>
+                            <li className='list-group-item'>
+                                • Audio Narration
+                            </li>
+                            <li className='list-group-item'>
+                                • Industry specific courses in English
+                            </li>
+                            <li className='list-group-item'>
+                                • Real life case studies
+                            </li>
+                            <li className='list-group-item'>
+                                • Course materials and guidelines
+                            </li>
+                        </ul>
+                    </div>
+
                     <div className='pt-2'>
                         <h4>Why BESI?</h4>
                         <ul className='list-group'>
@@ -157,13 +144,15 @@ const Elearning = ({ handleLogout }) => {
                         <h4>Course Duration</h4>
                         <ul className='list-group'>
                             <li className='list-group-item'>
-                                • • 5 days course( additional classes if needed)
+                                • 10 Hours & 30 Hours
                             </li>
                             <li className='list-group-item'>• • Online</li>
                         </ul>
                     </div>
                     <div className='pt-2'>
-                        <h4>Course Fee: 20,000 BDT (approx. USD 240)</h4>
+                        <h4>Course Fee:</h4>
+                        <h6>• 20,000 BDT (approx. USD 240)</h6>
+                        <h6>• 30 Hours – 20,000 BDT (approx. USD 240)</h6>
                     </div>
 
                     {/* Course Module */}
@@ -500,8 +489,8 @@ const Elearning = ({ handleLogout }) => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
-export default Elearning;
+export default ElearnOsha;

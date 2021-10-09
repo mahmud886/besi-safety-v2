@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Elearning = ({ handleLogout }) => {
+const ElearnIso1 = () => {
     return (
-        <>
+        <div>
             <div className='container py-5'>
                 <div className=' text-center'>
                     <h2>ISO 45001:2018</h2>
@@ -36,9 +36,8 @@ const Elearning = ({ handleLogout }) => {
                                     <p>
                                         <span>Get Started</span>
                                     </p>
-                                    <button
-                                        className='btn btn-main'
-                                        onClick={handleLogout}>
+
+                                    <button className='btn btn-main'>
                                         Logout
                                     </button>
                                 </div>
@@ -500,8 +499,8 @@ const Elearning = ({ handleLogout }) => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
-export default Elearning;
+export default ElearnIso1;
