@@ -58,6 +58,7 @@ function App() {
                     <SocialBar />
                     <Switch>
                         <Route path='/' exact component={Homepage} />
+                        <Route path='/login' exact component={Login} />
                         <Route path='/payment' exact component={PaymentForm} />
                         <Route
                             path='/payment/successful'
@@ -109,7 +110,7 @@ function App() {
                         />
                         <Route path='/contact' component={Contact} />
                         <Route path='/admission-form' component={MainForm} />
-                        <Route path='/login' component={Login} />
+
                         <Route path='/hero' component={Hero} />
                         <Route path='*' component={ErrorPage} />
                     </Switch>
