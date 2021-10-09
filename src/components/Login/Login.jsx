@@ -121,92 +121,81 @@ const Login = () => {
 
     return (
         <>
-            {user ? (
-                <div>
-                    <div className='login-main-container'>
-                        <div className='login-container rounded shadow-lg '>
-                            <form className='m-5 text-center '>
-                                <img
-                                    src={Logo}
-                                    alt=''
-                                    width='70px'
-                                    height='auto'
+            <div>
+                <div className='login-main-container'>
+                    <div className='login-container rounded shadow-lg '>
+                        <form className='m-5 text-center '>
+                            <img src={Logo} alt='' width='70px' height='auto' />
+                            <h5 className='py-3'>Sign Up / Sign In</h5>
+
+                            <div className='form-group'>
+                                <input
+                                    type='text'
+                                    className='form-control'
+                                    placeholder='email'
+                                    autoFocus
+                                    value={email}
+                                    required
+                                    onChange={(e) => setEmail(e.target.value)}
                                 />
-                                <h5 className='py-3'>Sign Up / Sign In</h5>
+                                <p>{emailError}</p>
+                            </div>
 
-                                <div className='form-group'>
-                                    <input
-                                        type='text'
-                                        className='form-control'
-                                        placeholder='email'
-                                        autoFocus
-                                        value={email}
-                                        required
-                                        onChange={(e) =>
-                                            setEmail(e.target.value)
-                                        }
-                                    />
-                                    <p>{emailError}</p>
-                                </div>
+                            <div className='form-group pt-2'>
+                                <input
+                                    type='password'
+                                    className='form-control'
+                                    placeholder='password'
+                                    value={password}
+                                    required
+                                    onChange={(e) =>
+                                        setPassword(e.target.value)
+                                    }
+                                />
+                                <p>{passwordError}</p>
+                            </div>
 
-                                <div className='form-group pt-2'>
-                                    <input
-                                        type='password'
-                                        className='form-control'
-                                        placeholder='password'
-                                        value={password}
-                                        required
-                                        onChange={(e) =>
-                                            setPassword(e.target.value)
-                                        }
-                                    />
-                                    <p>{passwordError}</p>
-                                </div>
-
-                                <div className='d-grid'>
-                                    {hasAccount ? (
-                                        <>
-                                            <button
-                                                onClick={handleLogin}
-                                                type='submit'
-                                                className='btn btn-main'>
-                                                Sign in
-                                            </button>
-                                            <p>Dont have an account?</p>
-                                            <span
-                                                className='error-message'
-                                                onClick={() =>
-                                                    setHasAccount(!hasAccount)
-                                                }>
-                                                Sign up
-                                            </span>
-                                        </>
-                                    ) : (
-                                        <>
-                                            <button
-                                                onClick={handleSignUp}
-                                                type='submit'
-                                                className='btn btn-main'>
-                                                Sign up
-                                            </button>
-                                            <p>Dont have an account? </p>
-                                            <span
-                                                className='error-message'
-                                                onClick={() =>
-                                                    setHasAccount(!hasAccount)
-                                                }>
-                                                Sign in
-                                            </span>
-                                        </>
-                                    )}
-                                </div>
-                            </form>
-                        </div>
+                            <div className='d-grid'>
+                                {hasAccount ? (
+                                    <>
+                                        <button
+                                            onClick={handleLogin}
+                                            type='submit'
+                                            className='btn btn-main'>
+                                            Sign in
+                                        </button>
+                                        <p>Dont have an account?</p>
+                                        <span
+                                            className='error-message'
+                                            onClick={() =>
+                                                setHasAccount(!hasAccount)
+                                            }>
+                                            Sign up
+                                        </span>
+                                    </>
+                                ) : (
+                                    <>
+                                        <button
+                                            onClick={handleSignUp}
+                                            type='submit'
+                                            className='btn btn-main'>
+                                            Sign up
+                                        </button>
+                                        <p>Dont have an account? </p>
+                                        <span
+                                            className='error-message'
+                                            onClick={() =>
+                                                setHasAccount(!hasAccount)
+                                            }>
+                                            Sign in
+                                        </span>
+                                    </>
+                                )}
+                            </div>
+                        </form>
                     </div>
                 </div>
-            ) : (
-                <Elearning handleLogout={handleLogout} />
-            )}
+            </div>
         </>
     );
 };
