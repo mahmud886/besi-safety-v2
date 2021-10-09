@@ -1,7 +1,7 @@
 import { createContext, useState } from 'react';
 import './App.css';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Homepage from './components/Home/Homepage/Homepage';
 import Blog from './components/Home/Pages/Blog/Blog';
