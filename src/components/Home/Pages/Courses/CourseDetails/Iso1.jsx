@@ -4,19 +4,21 @@ import { Link } from 'react-router-dom';
 const Iso1 = () => {
     return (
         <div>
+            <div className='py-5 bg-light shadow-sm'>
+                <h2 className='text-center p-3 rounded h1'>
+                    ISO <br />
+                    <h5>ISO 45001:2018</h5>
+                    <h6>Occupational Health & Safety Management Systems</h6>
+                </h2>
+                <p className='text-center'>courses/iso1</p>
+            </div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className='text-center p-3 rounded h1'>
-                        ISO <br />
-                        <h5>ISO 45001:2018</h5>
-                        <h6>Occupational Health & Safety Management Systems</h6>
-                    </h2>
-
                     <div className='row'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
-                            <h5 className='h2'>ISO 45001:2018</h5>
+                            <h5 className='h2 text-center'>ISO 45001:2018</h5>
 
-                            <p className='m-2'>
+                            <p className='py-5 text-center'>
                                 ISO 45001 is the world’s International standard
                                 for occupational health & safety, issued to
                                 protect employees and visitors from work related

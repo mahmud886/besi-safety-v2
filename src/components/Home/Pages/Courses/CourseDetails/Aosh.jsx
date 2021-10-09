@@ -4,17 +4,20 @@ import { Link } from 'react-router-dom';
 const Aosh = () => {
     return (
         <div>
+            <div className='py-5 bg-light shadow-sm'>
+                <h2 className=' text-center p-3 rounded h1'>
+                    AOSH <br />
+                    <h6>APPROVED TRAINING PROVIDER 5059</h6>
+                </h2>
+                <p className='text-center'>courses/aosh</p>
+            </div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className=' text-center p-3 rounded h1'>
-                        AOSH <br />
-                        <h6>APPROVED TRAINING PROVIDER 5059</h6>
-                    </h2>
                     <div className='row'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
-                            <h5 className='h2'>AOSH UK</h5>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
-                            <p className='m-2'>
+                            <h5 className='h2 text-center'>AOSH UK</h5>
+
+                            <p className='py-5 text-center'>
                                 Administration of Occupational Safety & Health
                                 or AOSH is certification body from UK who offers
                                 a wide range of health and safety qualifications
@@ -28,7 +31,6 @@ const Aosh = () => {
                                 Fire Safety Principle, Health and Safety at
                                 Workplace and so on.
                             </p>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
                         </div>
                     </div>
 

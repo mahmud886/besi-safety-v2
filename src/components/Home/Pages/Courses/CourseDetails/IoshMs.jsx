@@ -4,17 +4,20 @@ import { Link } from 'react-router-dom';
 const IoshMs = () => {
     return (
         <div>
+            <div className='py-5 bg-light shadow-sm'>
+                <h2 className=' text-center p-3 rounded h1'>
+                    IOSH MS <br />
+                    <h6>APPROVED TRAINING PROVIDER 4589</h6>
+                </h2>
+                <p className='text-center'>courses/ioshms</p>
+            </div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className=' text-center p-3 rounded h1'>
-                        IOSH MS <br />
-                        <h6>APPROVED TRAINING PROVIDER 4589</h6>
-                    </h2>
                     <div className='row'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
-                            <h5 className='h2'>IOSH MS</h5>
+                            <h5 className='h2 text-center'>IOSH MS</h5>
 
-                            <p className='m-2'>
+                            <p className='py-5 text-center'>
                                 Institute of Occupational Safety & Health is a
                                 global organization for health & safety
                                 professionals. It is a UK based organization

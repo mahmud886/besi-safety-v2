@@ -1,12 +1,15 @@
 import React from 'react';
 import './About.css';
 import chairman from '../../../../assets/images/chairman.png';
-import missionVison from '../../../../assets/images/mission-vision.jpg';
 import Contact from '../Contact/Contact';
 
 const About = () => {
     return (
         <div>
+            <div className='py-5 bg-light shadow-sm'>
+                <h5 className='text-center p-3 rounded h1'>About Us</h5>
+                <p className='text-center'>about</p>
+            </div>
             <div className='container pt-5 py-5'>
                 <div className='row'>
                     <div className='col-xl-4 col-md-4 col-sm-12 col-xs-12'>
@@ -82,70 +85,6 @@ const About = () => {
                                     occur to your employees.
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='row'>
-                    <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-mission-vision pt-5 py-5 '>
-                            <div className='mission '>
-                                <h4 className=' h2'>Our Misson</h4>
-
-                                <p className='pt-3'>
-                                    To gain a reputation by training, auditing,
-                                    consulting and qualifying professionals and
-                                    corporate companies through innovation and
-                                    to grow along with them in creativity,
-                                    quality, productivity, team work and set
-                                    exemplary ethical values.
-                                </p>
-                            </div>
-                            <div className='vision'>
-                                <h4 className='h2'>Our Vison</h4>
-                                <p className='pt-3'>
-                                    To enable aspirants to pursue a successful
-                                    OHS qualification. To set and achieve safety
-                                    standard across various industrial segments
-                                    in different geographies. Our Core Value In
-                                    this competitive era, many organizations are
-                                    striving hard to manage the balance with
-                                    core values and fundamental principles
-                                    against challenging demands of individual
-                                    accountability, determined commitment and
-                                    sustainability. We at BESI have the courage
-                                    to carry forth our belief during the battle
-                                    of business with our tolerance & innovation
-                                    and also resist various temptations to a
-                                    quicker monetary result however we do not
-                                    compromise our core values for which we
-                                    stand. We empower the team members to lead
-                                    and make decisions.
-                                </p>
-                            </div>
-                            <div className='why0us'>
-                                <h4 className='h2'>Why Choose Us? </h4>
-
-                                <p className='pt-3'>
-                                    We hold a prominent reputation in our field
-                                    with our ability to deliver high-quality
-                                    services with better value additions and it
-                                    is which unremittingly motivates us to
-                                    qualify our students through innovation and
-                                    to grow along with them in creativity,
-                                    quality, productivity and set exemplary
-                                    ethical values.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-mission-vision pt-5 py-5 '>
-                            <img
-                                src={missionVison}
-                                alt=''
-                                className='border rounded'
-                            />
                         </div>
                     </div>
                 </div>

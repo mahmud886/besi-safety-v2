@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import Logo from '../../../assets/images/logo.png';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => {
@@ -33,9 +33,32 @@ const Navigation = () => {
                                     <LinkContainer to='/'>
                                         <Nav.Link>Home</Nav.Link>
                                     </LinkContainer>
-                                    <LinkContainer to='/about'>
-                                        <Nav.Link>About</Nav.Link>
-                                    </LinkContainer>
+                                    <NavDropdown
+                                        id='nav-dropdown-dark-example'
+                                        title='About'
+                                        menuVariant='dark'>
+                                        <LinkContainer to='/about'>
+                                            <NavDropdown.Item>
+                                                About BesiBD
+                                            </NavDropdown.Item>
+                                        </LinkContainer>
+                                        <LinkContainer to='/mission-vision'>
+                                            <NavDropdown.Item>
+                                                Mission & Vison
+                                            </NavDropdown.Item>
+                                        </LinkContainer>
+                                        <LinkContainer to='/accreditation'>
+                                            <NavDropdown.Item>
+                                                Accreditation
+                                            </NavDropdown.Item>
+                                        </LinkContainer>
+
+                                        <LinkContainer to='/our-policy'>
+                                            <NavDropdown.Item>
+                                                Our Policy
+                                            </NavDropdown.Item>
+                                        </LinkContainer>
+                                    </NavDropdown>
                                     <LinkContainer to='/courses'>
                                         <Nav.Link>Courses</Nav.Link>
                                     </LinkContainer>

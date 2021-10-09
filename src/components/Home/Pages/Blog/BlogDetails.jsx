@@ -4,6 +4,7 @@ import { Container, Card } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 
 import { apiEndpointV1 } from '../../../../App';
+import Contact from '../Contact/Contact';
 
 const BlogDetails = () => {
     const { id } = useParams();
@@ -20,12 +21,12 @@ const BlogDetails = () => {
     const { title, description, img, created_at, created_by } = blogs;
     return (
         <>
+            <div className='py-5 bg-light shadow-sm'>
+                <h2 className=' text-center p-3 rounded h1'>BLOG DETAILS</h2>
+                <p className='text-center'>blog/blog-details</p>
+            </div>
             <Container className='pb-5'>
-                <div className='py-3'>
-                    <h2 className=' text-center p-3 rounded h1'>
-                        BLOG DETAILS
-                    </h2>
-                </div>
+                <div className='py-3'></div>
                 <div className='border rounded'>
                     <Card style={{ width: '90%' }} className='mx-auto m-4'>
                         <Card.Img
@@ -44,6 +45,7 @@ const BlogDetails = () => {
                     </Card>
                 </div>
             </Container>
+            <Contact />
         </>
     );
 };

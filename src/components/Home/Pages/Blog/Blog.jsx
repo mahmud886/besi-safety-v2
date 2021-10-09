@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 
 import { apiEndpointV1 } from '../../../../App';
+import Contact from '../Contact/Contact';
 
 // const blogData = [
 //     {
@@ -55,12 +56,17 @@ const Blog = () => {
         });
     return (
         <>
+            <div className='py-5 bg-light shadow-sm'>
+                <h5 className='text-center p-3 rounded h1'>BLOGS</h5>
+                <p className='text-center'>blogs</p>
+            </div>
             <Container className='mb-5'>
                 <div className='py-5'>
-                    <h5 className='text-center p-3 rounded h1'>BLOGS</h5>
+                    <h5 className='text-center p-3 rounded h1'>Single Blogs</h5>
                 </div>
                 <Row>{blogsCart()}</Row>
             </Container>
+            <Contact />
         </>
     );
 };

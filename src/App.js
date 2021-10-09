@@ -31,6 +31,9 @@ import SuccessPage from './components/Home/Payment/SuccessPage';
 import FailurePage from './components/Home/Payment/FailurePage';
 import CancelledPage from './components/Home/Payment/CancelledPage';
 import Osha from './components/Home/Pages/Courses/CourseDetails/Osha';
+import MissonVision from './components/Home/Pages/About/MissonVision';
+import Accreditation from './components/Home/Pages/About/Accreditation';
+import OurPolicy from './components/Home/Pages/About/OurPolicy';
 
 export let apiEndpointV1 = 'https://besi-bd.herokuapp.com/api/v1';
 export let apiEndpointV2 = 'https://besi-bd.herokuapp.com/api/v2';
@@ -57,16 +60,20 @@ function App() {
                     <Route path='/courses/ioshms' component={IoshMs} />
                     <Route path='/courses/iso1' component={Iso1} />
                     <Route path='/courses/iso2' component={Iso2} />
-                    <Route path='/courses/iso2' component={Iso3} />
+                    <Route path='/courses/iso3' component={Iso3} />
                     <Route path='/courses/othm' component={Othm} />
                     <Route path='/courses/aosh' component={Aosh} />
                     <Route path='/courses/osha' component={Osha} />
                     <Route path='/about' component={About} />
+                    <Route path='/mission-vision' component={MissonVision} />
+                    <Route path='/accreditation' component={Accreditation} />
+                    <Route path='/our-policy' component={OurPolicy} />
+
                     <Route path='/calendar' component={Calendar} />
                     <Route path='/result' component={Result} />
                     <Route path='/elearning' component={Elearning} />
                     <Route path='/blog' exact component={Blog} />
-                    <Route path='/blog/:id' component={BlogDetails} />
+                    <Route path='/blog-details/:id' component={BlogDetails} />
                     <Route path='/contact' component={Contact} />
                     <Route path='/admission-form' component={MainForm} />
                     <Route path='*' component={ErrorPage} />

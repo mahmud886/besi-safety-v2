@@ -40,9 +40,13 @@ const Result = () => {
 
     return (
         <>
-            <Container className='py-3'>
+            <div className='py-5 bg-light shadow-sm'>
+                <h5 className='text-center p-3 rounded h1'>Results</h5>
+                <p className='text-center'>results</p>
+            </div>
+            <Container className='py-5'>
                 <div className='py-3'>
-                    <h2 className='navbar-color text-center p-3 rounded h1'>
+                    <h2 className='text-center p-3 rounded h1'>
                         SEARCH YOUR RESULT
                     </h2>
                 </div>

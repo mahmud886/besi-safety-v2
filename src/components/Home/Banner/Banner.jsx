@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
         <>
-            <Carousel>
-                <Carousel.Item interval={3000}>
+            <Carousel fade>
+                <Carousel.Item interval={5000}>
                     <Image
                         className='d-block w-100 carousel-images'
                         src={slide1}
@@ -36,7 +36,7 @@ const Banner = () => {
                         </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={500}>
+                <Carousel.Item interval={5000}>
                     <Image
                         className='d-block w-100 carousel-images'
                         src={slide2}
@@ -57,7 +57,7 @@ const Banner = () => {
                             <br />
                             to the student.
                         </p>
-                        <Link to='/nebosh'>
+                        <Link to='/courses/iso1'>
                             <Button
                                 className='btn btn-main btn-md'
                                 type='button'>
@@ -66,7 +66,7 @@ const Banner = () => {
                         </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={5000}>
                     <Image
                         className='d-block w-100 carousel-images'
                         src={slide3}
@@ -86,7 +86,7 @@ const Banner = () => {
                             <br />
                             of health and safety management system.
                         </p>
-                        <Link to='/othm'>
+                        <Link to='/courses/othm'>
                             <Button
                                 className='btn btn-main btn-md'
                                 type='button'>

@@ -4,17 +4,20 @@ import { Link } from 'react-router-dom';
 const Osha = () => {
     return (
         <div>
+            <div className='py-5 bg-light shadow-sm'>
+                <h2 className=' text-center p-3 rounded h1'>
+                    OSHA <br />
+                    <h6>APPROVED TRAINING PROVIDER - ??</h6>
+                </h2>
+                <p className='text-center'>courses/osha</p>
+            </div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className=' text-center p-3 rounded h1'>
-                        OSHA <br />
-                        <h6>APPROVED TRAINING PROVIDER - ??</h6>
-                    </h2>
                     <div className='row'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
-                            <h5 className='h2'>OSHA</h5>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
-                            <p className='m-2'>
+                            <h5 className='h2 text-center'>OSHA</h5>
+
+                            <p className='py-5 text-center'>
                                 IASP OSHA 30-hour General Industry Course has
                                 been designed to deliver various training to
                                 working professionals with health and safety
@@ -25,7 +28,6 @@ const Osha = () => {
                                 Safety Officer, Safety Consultancy, Safety
                                 Committee Member, Any Safety Professionals.
                             </p>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
                         </div>
                     </div>
 

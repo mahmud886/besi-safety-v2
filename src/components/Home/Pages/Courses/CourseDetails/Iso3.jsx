@@ -4,19 +4,22 @@ import { Link } from 'react-router-dom';
 const Iso3 = () => {
     return (
         <div>
+            <div className='py-5 bg-light shadow-sm'>
+                <h2 className=' text-center p-3 rounded h1'>
+                    ISO <br />
+                    <h6>Lead Auditor</h6>
+                    <h5>ISO 9001:2015</h5>
+                    <h6>Quality Management Systems</h6>
+                </h2>
+                <p className='text-center'>courses/iso3</p>
+            </div>
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
-                    <h2 className=' text-center p-3 rounded h1'>
-                        ISO <br />
-                        <h6>Lead Auditor</h6>
-                        <h5>ISO 9001:2015</h5>
-                        <h6>Quality Management Systems</h6>
-                    </h2>
                     <div className='row'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
-                            <h5 className='h2'>ISO 9001:2015</h5>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
-                            <p className='m-2'>
+                            <h5 className='h2 text-center'>ISO 9001:2015</h5>
+
+                            <p className='py-5 text-center'>
                                 ISO 9001 is the world's most recognized Quality
                                 Management System (QMS) standard. Its aim is to
                                 help organizations meet the needs of their
@@ -25,7 +28,6 @@ const Iso3 = () => {
                                 framework to ensure consistent quality in the
                                 provision of goods and/or services.
                             </p>
-                            <hr className='navbar-color m-2 pt-1 rounded' />
                         </div>
                     </div>
 

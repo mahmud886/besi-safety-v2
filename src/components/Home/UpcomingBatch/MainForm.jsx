@@ -72,14 +72,14 @@ const MainForm = () => {
     };
     return (
         <>
-            <Container className='pb-5'>
-                <div className='py-5'>
-                    <h2 className='navbar-color text-center p-3 rounded h1'>
-                        ADMISSION FORM
-                    </h2>
-                </div>
+            <div className='py-5 bg-light shadow-sm'>
+                <h2 className=' text-center p-3 rounded h1'>Addmission Form</h2>
+                <p className='text-center'>admission-form</p>
+            </div>
+            <Container className='pb-5 '>
+                <div className='py-3'></div>
                 <Form
-                    className='border p-4 rounded navbar-color'
+                    className='border p-4 rounded bg-white'
                     onSubmit={handleSubmit}>
                     <Row>
                         {/* 01 */}
