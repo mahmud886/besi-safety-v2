@@ -126,7 +126,7 @@ const Login = () => {
                     <div className='login-container rounded shadow-lg '>
                         <form className='m-5 text-center '>
                             <img src={Logo} alt='' width='70px' height='auto' />
-                            <h5 className='py-3'>Sign Up / Sign In</h5>
+                            <h5 className='py-3'>Sign In</h5>
 
                             <div className='form-group'>
                                 <input
@@ -154,8 +154,30 @@ const Login = () => {
                                 />
                                 <p>{passwordError}</p>
                             </div>
+                            <div className=''>
+                                <button
+                                    onClick={handleLogin}
+                                    type='submit'
+                                    className='btn btn-main'>
+                                    Sign in
+                                </button>
+                                <div className='pt-2'>
+                                    <p>Dont have an account?</p>
+                                    <p>Please Contact with administrator</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+};
 
-                            <div className='d-grid'>
+export default Login;
+
+{
+    /* <div className='d-grid'>
                                 {hasAccount ? (
                                     <>
                                         <button
@@ -191,13 +213,5 @@ const Login = () => {
                                         </span>
                                     </>
                                 )}
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </>
-    );
-};
-
-export default Login;
+                            </div> */
+}

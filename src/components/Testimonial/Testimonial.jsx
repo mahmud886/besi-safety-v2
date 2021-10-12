@@ -16,52 +16,66 @@ SwiperCore.use([Navigation, Scrollbar, Pagination, A11y, EffectFade]);
 const data = [
     {
         id: 1,
-        url: 'https://randomuser.me/api/portraits/men/90.jpg',
-        username: 'Shadrack',
+        url: 'https://www.unileadehs.com/wp-content/uploads/2021/09/tajeq_ahmed_list.jpg',
+        username: 'Tajeq Ahmed',
         testimonial:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since',
+            'It’s an immense pleasure to keep in touch with UNILEAD EHS & SUSTAINABILITY PRIVATE LIMITED GROUP. As a student I have always got specific information from them which reflects their professionalism and excellent collaboration.',
+
+        orientation: 'Organization: Chevron | Country: Bangladesh',
     },
     {
         id: 2,
-        url: 'https://randomuser.me/api/portraits/men/92.jpg',
-        username: 'Shuvo',
+        url: 'https://www.unileadehs.com/wp-content/uploads/2021/09/sanjoy_chowhury_list.jpg',
+        username: 'Sanjoy Chowdhury',
         testimonial:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since',
+            'I have been with HSE field more than 28 years. It is a huge steps in my career in attending with Unilead EHS & Sustainability Private Limited Group. It is really a huge lift in my career with engaging with professional like Mr Anik.',
+
+        orientation:
+            'Organization:  SembCorp Marine Integrated Yard Pvt. Ltd | Country: Singapore',
     },
     {
         id: 3,
-        url: 'https://randomuser.me/api/portraits/men/95.jpg',
-        username: 'Shbud',
+        url: 'https://www.unileadehs.com/wp-content/uploads/2021/08/Zakir_hossain_list.jpg',
+        username: 'Md Zakir Hossain',
         testimonial:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since',
+            'I have been with HSE field more than 28 years. It is a huge steps in my career in attending with Unilead EHS & Sustainability Private Limited Group. It is really a huge lift in my career with engaging with professional like Mr Anik.',
+        orientation:
+            'Organization:  SembCorp Marine Integrated Yard Pvt. Ltd | Country: Singapore',
     },
     {
         id: 4,
-        url: 'https://randomuser.me/api/portraits/men/97.jpg',
-        username: 'Priyom',
+        url: 'https://www.unileadehs.com/wp-content/uploads/2021/08/Zakir_hossain_list.jpg',
+        username: 'Md Zakir Hossain',
         testimonial:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since',
+            'I have been with HSE field more than 28 years. It is a huge steps in my career in attending with Unilead EHS & Sustainability Private Limited Group. It is really a huge lift in my career with engaging with professional like Mr Anik.',
+        orientation:
+            'Organization:  SembCorp Marine Integrated Yard Pvt. Ltd | Country: Singapore',
     },
     {
         id: 5,
-        username: 'Payel',
-        url: 'https://randomuser.me/api/portraits/men/98.jpg',
+        url: 'https://www.unileadehs.com/wp-content/uploads/2021/09/sanjoy_chowhury_list.jpg',
+        username: 'Sanjoy Chowdhury',
         testimonial:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since',
+            'I have been with HSE field more than 28 years. It is a huge steps in my career in attending with Unilead EHS & Sustainability Private Limited Group. It is really a huge lift in my career with engaging with professional like Mr Anik.',
+
+        orientation:
+            'Organization:  SembCorp Marine Integrated Yard Pvt. Ltd | Country: Singapore',
     },
     {
         id: 6,
-        url: 'https://randomuser.me/api/portraits/men/99.jpg',
-        username: 'Anish',
+        url: 'https://www.unileadehs.com/wp-content/uploads/2021/09/tajeq_ahmed_list.jpg',
+        username: 'Tajeq Ahmed',
         testimonial:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since',
+            'It’s an immense pleasure to keep in touch with UNILEAD EHS & SUSTAINABILITY PRIVATE LIMITED GROUP. As a student I have always got specific information from them which reflects their professionalism and excellent collaboration.',
+
+        orientation: 'Organization: Chevron | Country: Bangladesh',
     },
 ];
 
 const Testimonial = () => {
     return (
-        <div className='container'>
-            <div className='py-4 text-center'>
+        <div className='container py-4'>
+            <div className=' text-center'>
                 <h1 className='text-uppercase'>Testimonial</h1>
             </div>
             <Swiper
@@ -71,12 +85,16 @@ const Testimonial = () => {
                 effect='cube'
                 spaceBetween={50}
                 slidesPerView={3}
+                autoPlay={5000}
                 pagination={{ clickable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}>
                 {data.map((user) => (
-                    <SwiperSlide key={user.id} className='swiper-slide'>
-                        <div className='slide-content shadow-sm p-3 mb-5 bg-light rounded'>
+                    <SwiperSlide
+                        key={user.id}
+                        className='swiper-slide swiper-slide '
+                        data-swiper-autoplay='2000'>
+                        <div className='slide-content shadow-sm p-3 mb-5 bg-light rounded text-center'>
                             <div className='user-image'>
                                 <img
                                     src={user.url}
@@ -84,8 +102,12 @@ const Testimonial = () => {
                                     className='user-photo'
                                 />
                             </div>
-                            <div className='py-2'>
+
+                            <div className='py-1'>
                                 <h5>{user.username}</h5>
+                                <p>
+                                    <strong>{user.orientation}</strong>
+                                </p>
                             </div>
                             <div className=''>
                                 <p>{user.testimonial}</p>

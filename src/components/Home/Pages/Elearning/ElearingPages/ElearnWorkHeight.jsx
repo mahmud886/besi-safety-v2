@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ElearnIso1 = () => {
+const ElearnWorkHeight = () => {
     return (
         <div>
             <div className='container py-5'>
                 <div className=' text-center'>
-                    <h2>ISO 45001:2018</h2>
+                    <h2>Work At Height</h2>
                     <h5>Occupational Health & Safety Management Systems</h5>
                 </div>
                 <div className='container py-5'>
@@ -191,8 +191,21 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingOne'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
+                                            <h5>
+                                                Fall Prevention ( Scaffolding ,
+                                                Ladders)
+                                            </h5>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -224,7 +237,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingTwo'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -257,7 +279,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingThree'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -291,7 +322,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingFour'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -324,7 +364,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingFive'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -357,7 +406,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingSix'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -391,7 +449,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingSeven'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -440,4 +507,4 @@ const ElearnIso1 = () => {
     );
 };
 
-export default ElearnIso1;
+export default ElearnWorkHeight;

@@ -1,12 +1,15 @@
 import React from 'react';
 
-const ElearnIso1 = () => {
+const ElearnIosh = () => {
     return (
-        <div>
+        <>
             <div className='container py-5'>
                 <div className=' text-center'>
-                    <h2>ISO 45001:2018</h2>
-                    <h5>Occupational Health & Safety Management Systems</h5>
+                    <h2>ISOH MS(Managing Safely)</h2>
+                    <h5>
+                        Institute of Occupational Safety & Health is a global
+                        organization for health & safety professionals
+                    </h5>
                 </div>
                 <div className='container py-5'>
                     <div className='bg-light rounded'>
@@ -36,7 +39,6 @@ const ElearnIso1 = () => {
                                     <p>
                                         <span>Get Started</span>
                                     </p>
-
                                     <button className='btn btn-main'>
                                         Logout
                                     </button>
@@ -74,12 +76,10 @@ const ElearnIso1 = () => {
                     <div className=''>
                         <h4>Course Descriptions</h4>
                         <p>
-                            ISO 45001 is the world’s International standard for
-                            occupational health & safety, issued to protect
-                            employees and visitors from work related accidents
-                            and diseases. ISO 45001 certification is designed to
-                            mitigate factors that can cause employees and
-                            businesses irreparable harm.
+                            IOSH MS is a UK based certification that has a high
+                            demanding base in Bangladesh. IOSH helps
+                            professionals to assess occupational hazards, and
+                            maintain appropriate health and safety
                         </p>
                     </div>
 
@@ -87,12 +87,16 @@ const ElearnIso1 = () => {
                         <h4>Aim or Purpose(why this course)</h4>
                         <ul className='list-group'>
                             <li className='list-group-item'>
-                                • To improve safety and health of employees and
-                                other stakeholders.
+                                • To make people understand about the importance
+                                of safety at work place.
                             </li>
                             <li className='list-group-item'>
-                                • To benefit a company and its’ overall
-                                businesses.
+                                • To encourage employees for maintaining health
+                                safety while working.
+                            </li>
+                            <li className='list-group-item'>
+                                • To educate managers and supervisors to monitor
+                                and control risk.
                             </li>
                         </ul>
                     </div>
@@ -105,7 +109,7 @@ const ElearnIso1 = () => {
                         </p>
                     </div>
                     <div className='pt-2'>
-                        <h4>Benefits of ISO 14001:2015</h4>
+                        <h4>Benefits of ISOH MS</h4>
                         <ul className='list-group'>
                             <li className='list-group-item'>
                                 • Improve hazard identification and risk
@@ -138,9 +142,8 @@ const ElearnIso1 = () => {
                                 any sector
                             </li>
                             <li className='list-group-item'>
-                                • • An ISO 45001:2018 from BESI Private Limited
-                                will help any organization to improve its’
-                                business
+                                • • An ISOH MS from BESI Private Limited will
+                                help any organization to improve its’ business
                             </li>
                             <li className='list-group-item'>
                                 • • BESI has well trained and highly experienced
@@ -149,6 +152,14 @@ const ElearnIso1 = () => {
                             <li className='list-group-item'>
                                 • • BESI provides easy and spontaneous course
                                 materials.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className='pt-2'>
+                        <h4>Course Requirements</h4>
+                        <ul className='list-group'>
+                            <li className='list-group-item'>
+                                • Mobile / Laptop
                             </li>
                         </ul>
                     </div>
@@ -182,7 +193,10 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseOne'
                                         aria-expanded='true'
                                         aria-controls='collapseOne'>
-                                        <h5>Module 1:</h5>
+                                        <h5>
+                                            Module 1: Introducing managing
+                                            safely
+                                        </h5>
                                     </button>
                                 </h2>
                                 <div
@@ -191,7 +205,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingOne'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -215,7 +238,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseTwo'
                                         aria-expanded='false'
                                         aria-controls='collapseTwo'>
-                                        <h5>Module 2:</h5>
+                                        <h5>Module 2: Assessing risks</h5>
                                     </button>
                                 </h2>
                                 <div
@@ -224,7 +247,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingTwo'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -248,7 +280,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseThree'
                                         aria-expanded='false'
                                         aria-controls='collapseThree'>
-                                        <h5>Module 3:</h5>
+                                        <h5>Module 3: Controlling risks</h5>
                                     </button>
                                 </h2>
                                 <div
@@ -257,7 +289,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingThree'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -282,7 +323,10 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseFour'
                                         aria-expanded='false'
                                         aria-controls='collapseThree'>
-                                        <h5>Module 4:</h5>
+                                        <h5>
+                                            Module 4: Understanding
+                                            responsibilities
+                                        </h5>
                                     </button>
                                 </h2>
                                 <div
@@ -291,7 +335,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingFour'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -315,7 +368,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseFive'
                                         aria-expanded='false'
                                         aria-controls='collapseFive'>
-                                        <h5>Module 5: </h5>
+                                        <h5>Module 5: Understanding hazards</h5>
                                     </button>
                                 </h2>
                                 <div
@@ -324,7 +377,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingFive'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -348,7 +410,9 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseSix'
                                         aria-expanded='false'
                                         aria-controls='collapseSix'>
-                                        <h5>Module 6:</h5>
+                                        <h5>
+                                            Module 6: Investigating incidents
+                                        </h5>
                                     </button>
                                 </h2>
                                 <div
@@ -357,7 +421,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingSix'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -391,7 +464,16 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingSeven'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/Q7Ef4e4U1yc'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
@@ -415,7 +497,9 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseEight'
                                         aria-expanded='false'
                                         aria-controls='collapseEight'>
-                                        <h5>Certification:</h5>
+                                        <h5>
+                                            Certification: Measuring Performance
+                                        </h5>
                                     </button>
                                 </h2>
                                 <div
@@ -436,8 +520,8 @@ const ElearnIso1 = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
-export default ElearnIso1;
+export default ElearnIosh;

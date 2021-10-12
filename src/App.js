@@ -42,6 +42,8 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ElearningMain from './components/Home/Pages/Elearning/ElearningMain';
 import ElearnIso1 from './components/Home/Pages/Elearning/ElearingPages/ElearnIso1';
 import ElearnOsha from './components/Home/Pages/Elearning/ElearingPages/ElearnOsha';
+import ElearnWorkHeight from './components/Home/Pages/Elearning/ElearingPages/ElearnWorkHeight';
+import ElearnIosh from './components/Home/Pages/Elearning/ElearingPages/ElearnIosh';
 
 export let apiEndpointV1 = 'https://besi-bd.herokuapp.com/api/v1';
 export let apiEndpointV2 = 'https://besi-bd.herokuapp.com/api/v2';
@@ -96,12 +98,16 @@ function App() {
                         <PrivateRoute path='/elearn/iso1'>
                             <ElearnIso1 />
                         </PrivateRoute>
-                        <PrivateRoute path='/elearn/osha'>
-                            <ElearnOsha />
+                        <PrivateRoute path='/elearn/iosh'>
+                            <ElearnIosh />
                         </PrivateRoute>
+                        {/* <PrivateRoute path='/elearn/work-atheight'>
+                            <ElearnWorkHeight />
+                        </PrivateRoute>
+
                         <PrivateRoute path='/elearning'>
                             <Elearning />
-                        </PrivateRoute>
+                        </PrivateRoute> */}
 
                         <Route path='/blog' exact component={Blog} />
                         <Route
