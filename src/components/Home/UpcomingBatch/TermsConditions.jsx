@@ -8,7 +8,9 @@ const TermsConditions = () => {
         <>
             <Container fluid>
                 <div className='text-center'>
-                    <Button variant='light' onClick={() => setShow(true)}>
+                    <Button
+                        className='btn btn-main btn-md'
+                        onClick={() => setShow(true)}>
                         TERMS AND CONDITIONS
                     </Button>
                 </div>

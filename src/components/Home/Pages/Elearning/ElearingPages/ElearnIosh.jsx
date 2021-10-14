@@ -1,4 +1,5 @@
 import React from 'react';
+import LearnerAgreement from './Modals/LearnerAgreement';
 
 const ElearnIosh = () => {
     return (
@@ -51,9 +52,7 @@ const ElearnIosh = () => {
                     <div className='pt-5'>
                         <div className='row text-center'>
                             <div className='col-lg-4 col-md-4 col-sm-12'>
-                                <button className='btn btn-main btn-md'>
-                                    Learner Agreement
-                                </button>
+                                <LearnerAgreement />
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-12'>
                                 <button className='btn btn-main btn-main btn-md'>

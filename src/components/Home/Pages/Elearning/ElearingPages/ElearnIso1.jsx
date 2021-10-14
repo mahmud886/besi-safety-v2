@@ -1,4 +1,5 @@
 import React from 'react';
+import LearnerAgreement from './Modals/LearnerAgreement';
 
 const ElearnIso1 = () => {
     return (
@@ -49,9 +50,7 @@ const ElearnIso1 = () => {
                     <div className='pt-5'>
                         <div className='row text-center'>
                             <div className='col-lg-4 col-md-4 col-sm-12'>
-                                <button className='btn btn-main btn-md'>
-                                    Learner Agreement
-                                </button>
+                                <LearnerAgreement />
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-12'>
                                 <button className='btn btn-main btn-main btn-md'>
@@ -182,7 +181,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseOne'
                                         aria-expanded='true'
                                         aria-controls='collapseOne'>
-                                        <h5>Module 1:</h5>
+                                        <h5>Module 1: Introduction</h5>
                                     </button>
                                 </h2>
                                 <div
@@ -191,14 +190,23 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingOne'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/ppR03lMQlZQ'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
                                             </li>
                                             <li className='list-group-item'>
-                                                • Risk assessment test
+                                                • Introduction test
                                             </li>
                                         </ul>
                                     </div>
@@ -215,7 +223,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseTwo'
                                         aria-expanded='false'
                                         aria-controls='collapseTwo'>
-                                        <h5>Module 2:</h5>
+                                        <h5>Module 2: Differency</h5>
                                     </button>
                                 </h2>
                                 <div
@@ -224,14 +232,23 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingTwo'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/L2etkMyZ9pE'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
                                             </li>
                                             <li className='list-group-item'>
-                                                • Risk assessment test
+                                                • Differency test
                                             </li>
                                         </ul>
                                     </div>
@@ -248,7 +265,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseThree'
                                         aria-expanded='false'
                                         aria-controls='collapseThree'>
-                                        <h5>Module 3:</h5>
+                                        <h5>Module 3: Structure</h5>
                                     </button>
                                 </h2>
                                 <div
@@ -257,14 +274,23 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingThree'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/apT2FZuFVU0'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
                                             </li>
                                             <li className='list-group-item'>
-                                                • Risk assessment test
+                                                • Structure test
                                             </li>
                                         </ul>
                                     </div>
@@ -282,7 +308,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseFour'
                                         aria-expanded='false'
                                         aria-controls='collapseThree'>
-                                        <h5>Module 4:</h5>
+                                        <h5>Module 4: Clause-4</h5>
                                     </button>
                                 </h2>
                                 <div
@@ -291,14 +317,23 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingFour'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/sW2GSDxVNhs'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
                                             </li>
                                             <li className='list-group-item'>
-                                                • Risk assessment test
+                                                • Clause-4 test
                                             </li>
                                         </ul>
                                     </div>
@@ -315,7 +350,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseFive'
                                         aria-expanded='false'
                                         aria-controls='collapseFive'>
-                                        <h5>Module 5: </h5>
+                                        <h5>Module 5: Clause-5 </h5>
                                     </button>
                                 </h2>
                                 <div
@@ -324,14 +359,23 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingFive'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/NNxlq0c_woU'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
                                             </li>
                                             <li className='list-group-item'>
-                                                • Risk assessment test
+                                                • Clause-5 test
                                             </li>
                                         </ul>
                                     </div>
@@ -348,7 +392,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseSix'
                                         aria-expanded='false'
                                         aria-controls='collapseSix'>
-                                        <h5>Module 6:</h5>
+                                        <h5>Module 6: Clause-6</h5>
                                     </button>
                                 </h2>
                                 <div
@@ -357,14 +401,23 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingSix'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/jB7KnRLTPZ0'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
                                             </li>
                                             <li className='list-group-item'>
-                                                • Risk assessment test
+                                                • Clause-6 test
                                             </li>
                                         </ul>
                                     </div>
@@ -382,7 +435,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseSeven'
                                         aria-expanded='false'
                                         aria-controls='collapseSeven'>
-                                        <h5>Module 7: </h5>
+                                        <h5>Module 7: Clause-7 </h5>
                                     </button>
                                 </h2>
                                 <div
@@ -391,14 +444,23 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingSeven'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
-                                        <div className='text-center'></div>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/mS3g_sXtQAQ'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
                                             </li>
                                             <li className='list-group-item'>
-                                                • Risk assessment test
+                                                • Clause-7 test
                                             </li>
                                         </ul>
                                     </div>
@@ -415,7 +477,7 @@ const ElearnIso1 = () => {
                                         data-bs-target='#collapseEight'
                                         aria-expanded='false'
                                         aria-controls='collapseEight'>
-                                        <h5>Certification:</h5>
+                                        <h5>Module 8: Clause-8 </h5>
                                     </button>
                                 </h2>
                                 <div
@@ -424,9 +486,179 @@ const ElearnIso1 = () => {
                                     aria-labelledby='headingEight'
                                     data-bs-parent='#accordionExample'>
                                     <div className='accordion-body'>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/YP6vy0gpC7I'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
                                         <ul className='list-group'>
+                                            <h6>Assessment</h6>
                                             <li className='list-group-item'>
-                                                Certificate from UK
+                                                • MCQ
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • Clause-8 Test
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='accordion-item'>
+                                <h2
+                                    className='accordion-header'
+                                    id='headingNine'>
+                                    <button
+                                        className='accordion-button collapsed'
+                                        type='button'
+                                        data-bs-toggle='collapse'
+                                        data-bs-target='#collapseNine'
+                                        aria-expanded='false'
+                                        aria-controls='collapseNine'>
+                                        <h5>Module 9: Clause-9 </h5>
+                                    </button>
+                                </h2>
+                                <div
+                                    id='collapseNine'
+                                    className='accordion-collapse collapse'
+                                    aria-labelledby='headingNine'
+                                    data-bs-parent='#accordionExample'>
+                                    <div className='accordion-body'>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/GQAkOm9RkCY'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <ul className='list-group'>
+                                            <h6>Assessment</h6>
+                                            <li className='list-group-item'>
+                                                • MCQ
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • Clause-9 Test
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='accordion-item'>
+                                <h2
+                                    className='accordion-header'
+                                    id='headingTen'>
+                                    <button
+                                        className='accordion-button collapsed'
+                                        type='button'
+                                        data-bs-toggle='collapse'
+                                        data-bs-target='#collapseTen'
+                                        aria-expanded='false'
+                                        aria-controls='collapseTen'>
+                                        <h5>Module 10: Clause-10</h5>
+                                    </button>
+                                </h2>
+                                <div
+                                    id='collapseTen'
+                                    className='accordion-collapse collapse'
+                                    aria-labelledby='headingTen'
+                                    data-bs-parent='#accordionExample'>
+                                    <div className='accordion-body'>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/3asWbHMCJA4'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <ul className='list-group'>
+                                            <h6>Assessment</h6>
+                                            <li className='list-group-item'>
+                                                • MCQ
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • Clause-10 Test
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='accordion-item'>
+                                <h2
+                                    className='accordion-header'
+                                    id='headingEleven'>
+                                    <button
+                                        className='accordion-button collapsed'
+                                        type='button'
+                                        data-bs-toggle='collapse'
+                                        data-bs-target='#collapseEleven'
+                                        aria-expanded='false'
+                                        aria-controls='collapseEleven'>
+                                        <h5>
+                                            Module 11: Certification Process
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div
+                                    id='collapseEleven'
+                                    className='accordion-collapse collapse'
+                                    aria-labelledby='headingEleven'
+                                    data-bs-parent='#accordionExample'>
+                                    <div className='accordion-body'>
+                                        <div className='text-center'>
+                                            <iframe
+                                                width='760'
+                                                height='315'
+                                                src='https://www.youtube.com/embed/3Z_FU7Dmx5s'
+                                                title='YouTube video player'
+                                                frameborder='0'
+                                                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <ul className='list-group'>
+                                            <h6>Certification Process</h6>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='accordion-item'>
+                                <h2
+                                    className='accordion-header'
+                                    id='headingTwelve'>
+                                    <button
+                                        className='accordion-button collapsed'
+                                        type='button'
+                                        data-bs-toggle='collapse'
+                                        data-bs-target='#collapseTwelve'
+                                        aria-expanded='false'
+                                        aria-controls='collapseTwelve'>
+                                        <h5>Module 12: Exam</h5>
+                                    </button>
+                                </h2>
+                                <div
+                                    id='collapseTwelve'
+                                    className='accordion-collapse collapse'
+                                    aria-labelledby='headingTwelve'
+                                    data-bs-parent='#accordionExample'>
+                                    <div className='accordion-body'>
+                                        <ul className='list-group'>
+                                            <h6>Exam</h6>
+                                            <li className='list-group-item'>
+                                                • Google Docs link (
+                                                https://docs.google.com/forms/d/1G1MpSUT5Hz-xN2hre7EuJF5GRjLeR0w-ZO8DQXyUXY0/viewform?edit_requested=true
+                                                )
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • MCQ
                                             </li>
                                         </ul>
                                     </div>
