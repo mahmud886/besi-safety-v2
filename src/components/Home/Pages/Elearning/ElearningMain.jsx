@@ -25,7 +25,7 @@ const ElearningMain = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 col-sm-12 col-xs-12 col-xl-4'>
+                    {/* <div className='col-md-6 col-sm-12 col-xs-12 col-xl-4'>
                         <div className='single-courses bg-light text-dark text-center py-5 border rounded shadow-sm'>
                             <h5>IOSH MS </h5>
                             <div className='py-2'>
@@ -36,7 +36,7 @@ const ElearningMain = () => {
                                 </Link>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* <div className='col-md-6 col-sm-12 col-xs-12 col-xl-4'>
                         <div className='single-courses bg-light text-dark text-center py-5 border rounded shadow-sm'>

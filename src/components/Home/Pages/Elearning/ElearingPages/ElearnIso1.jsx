@@ -200,7 +200,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -208,7 +208,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Introduction test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -242,7 +242,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -250,7 +250,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Differency test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -284,7 +284,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -292,7 +292,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Structure test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -327,7 +327,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -335,7 +335,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Clause-4 test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -369,7 +369,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -377,7 +377,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Clause-5 test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -411,7 +411,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -419,7 +419,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Clause-6 test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -454,7 +454,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -462,7 +462,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Clause-7 test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -496,7 +496,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -504,7 +504,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Clause-8 Test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -538,7 +538,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -546,7 +546,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Clause-9 Test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -580,7 +580,7 @@ const ElearnIso1 = () => {
                                                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                                 allowfullscreen></iframe>
                                         </div>
-                                        <ul className='list-group'>
+                                        {/* <ul className='list-group'>
                                             <h6>Assessment</h6>
                                             <li className='list-group-item'>
                                                 • MCQ
@@ -588,7 +588,7 @@ const ElearnIso1 = () => {
                                             <li className='list-group-item'>
                                                 • Clause-10 Test
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -657,9 +657,9 @@ const ElearnIso1 = () => {
                                                 https://docs.google.com/forms/d/1G1MpSUT5Hz-xN2hre7EuJF5GRjLeR0w-ZO8DQXyUXY0/viewform?edit_requested=true
                                                 )
                                             </li>
-                                            <li className='list-group-item'>
+                                            {/* <li className='list-group-item'>
                                                 • MCQ
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>
