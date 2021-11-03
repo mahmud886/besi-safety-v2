@@ -44,6 +44,7 @@ import ElearnIso1 from './components/Home/Pages/Elearning/ElearingPages/ElearnIs
 import ElearnOsha from './components/Home/Pages/Elearning/ElearingPages/ElearnOsha';
 import ElearnWorkHeight from './components/Home/Pages/Elearning/ElearingPages/ElearnWorkHeight';
 import ElearnIosh from './components/Home/Pages/Elearning/ElearingPages/ElearnIosh';
+import ScrollToTop from './components/ScrollToTop';
 
 export let apiEndpointV1 = 'https://besi-bd.herokuapp.com/api/v1';
 export let apiEndpointV2 = 'https://besi-bd.herokuapp.com/api/v2';
@@ -56,6 +57,7 @@ function App() {
         <>
             <userContext.Provider value={[loggedInUser, setLoggedInUser]}>
                 <Router>
+                    <ScrollToTop />
                     <Navigation />
                     <SocialBar />
                     <Switch>

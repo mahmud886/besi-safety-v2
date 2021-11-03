@@ -28,10 +28,10 @@ const data = [
         url: 'https://www.unileadehs.com/wp-content/uploads/2021/09/sanjoy_chowhury_list.jpg',
         username: 'Sanjoy Chowdhury',
         testimonial:
-            'I have been with HSE field more than 28 years. It is a huge steps in my career in attending with Unilead EHS & Sustainability Private Limited Group. It is really a huge lift in my career with engaging with professional like Mr Anik.',
+            'From my own learning experience I can say that Unilead EHS & Sustainability Private Limited Group is a great organization, which can greatly boost our knowledge on EHS track.',
 
         orientation:
-            'Organization:  SembCorp Marine Integrated Yard Pvt. Ltd | Country: Singapore',
+            'Organization: Max Infrastructure Ltd. | Country: Bangladesh',
     },
     {
         id: 3,
@@ -44,6 +44,15 @@ const data = [
     },
     {
         id: 4,
+        url: 'https://www.unileadehs.com/wp-content/uploads/2021/09/tajeq_ahmed_list.jpg',
+        username: 'Tajeq Ahmed',
+        testimonial:
+            'It’s an immense pleasure to keep in touch with UNILEAD EHS & SUSTAINABILITY PRIVATE LIMITED GROUP. As a student I have always got specific information from them which reflects their professionalism and excellent collaboration.',
+
+        orientation: 'Organization: Chevron | Country: Bangladesh',
+    },
+    {
+        id: 5,
         url: 'https://www.unileadehs.com/wp-content/uploads/2021/08/Zakir_hossain_list.jpg',
         username: 'Md Zakir Hossain',
         testimonial:
@@ -52,29 +61,20 @@ const data = [
             'Organization:  SembCorp Marine Integrated Yard Pvt. Ltd | Country: Singapore',
     },
     {
-        id: 5,
+        id: 6,
         url: 'https://www.unileadehs.com/wp-content/uploads/2021/09/sanjoy_chowhury_list.jpg',
         username: 'Sanjoy Chowdhury',
         testimonial:
-            'I have been with HSE field more than 28 years. It is a huge steps in my career in attending with Unilead EHS & Sustainability Private Limited Group. It is really a huge lift in my career with engaging with professional like Mr Anik.',
+            'From my own learning experience I can say that Unilead EHS & Sustainability Private Limited Group is a great organization, which can greatly boost our knowledge on EHS track.',
 
         orientation:
-            'Organization:  SembCorp Marine Integrated Yard Pvt. Ltd | Country: Singapore',
-    },
-    {
-        id: 6,
-        url: 'https://www.unileadehs.com/wp-content/uploads/2021/09/tajeq_ahmed_list.jpg',
-        username: 'Tajeq Ahmed',
-        testimonial:
-            'It’s an immense pleasure to keep in touch with UNILEAD EHS & SUSTAINABILITY PRIVATE LIMITED GROUP. As a student I have always got specific information from them which reflects their professionalism and excellent collaboration.',
-
-        orientation: 'Organization: Chevron | Country: Bangladesh',
+            'Organization: Max Infrastructure Ltd. | Country: Bangladesh',
     },
 ];
 
 const Testimonial = () => {
     return (
-        <div className='container py-4'>
+        <div className='container py-5'>
             <div className=' text-center'>
                 <h1 className='text-uppercase'>Testimonial</h1>
             </div>
@@ -105,9 +105,7 @@ const Testimonial = () => {
 
                             <div className='py-1'>
                                 <h5>{user.username}</h5>
-                                <p>
-                                    <strong>{user.orientation}</strong>
-                                </p>
+                                <p>{user.orientation}</p>
                             </div>
                             <div className=''>
                                 <p>{user.testimonial}</p>

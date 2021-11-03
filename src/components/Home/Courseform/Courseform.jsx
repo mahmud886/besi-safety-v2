@@ -10,15 +10,15 @@ const Courseform = () => {
                             ISO COURSES IN BD WITH GREAT LEARNING EXPERIENCE!
                         </h4>
                         <p className='pt-3'>
-                            As a matter of fact, ISO courses BD learn from
-                            Silver Learning Partner 1227. Certainly, BESI is a
-                            premier safety training institute in Chennai,
-                            experts in providing the best learning experience to
-                            our learners. Hence, we proffer flexible learning
-                            options to study Iso courses in Chennai. BESI
-                            exceeds in delivering Safety training courses such
-                            as ISO, ISO Leadership Excellence, Iso Process
-                            Safety and much more.
+                            Institute of Occupational Safety & Health is a
+                            global organization for health & safety
+                            professionals. It is a UK based organization which
+                            offers professional health & safety courses to
+                            promote safety throughout the world. IOSH has around
+                            48,000 members from 130 countries in the world. BESI
+                            Private Limited is accredited in providing training
+                            for IOSH Managing Safely in Bangladesh and global
+                            grounds.
                         </p>
                         <p className='pt-3'>
                             Furthermore, BESI is an ISO 9001:2015 Certified
