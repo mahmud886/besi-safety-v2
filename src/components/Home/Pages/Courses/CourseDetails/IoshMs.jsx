@@ -19,15 +19,19 @@ const IoshMs = () => {
 
                             <p className='py-5 text-center'>
                                 Institute of Occupational Safety & Health is a
-                                global organization for health & safety
-                                professionals. It is a UK based organization
-                                which offers professional health & safety
-                                courses to promote safety throughout the world.
-                                IOSH has around 48,000 members from 130
-                                countries in the world. BESI Private Limited is
-                                accredited in providing training for IOSH
-                                Managing Safely in Bangladesh and global
-                                grounds.
+                                global UK based organization for health and
+                                safety professionals. Managing safely, the
+                                market-leading health and safety course for line
+                                managers, is tried, tested and trusted. Designed
+                                to provide all managers with the confidence and
+                                enthusiasm to apply knowledge to the workplace,
+                                this course is unlike any other. BESI Private
+                                Limited is accredited in providing training for
+                                IOSH Managing Safely in Bangladesh and in global
+                                grounds. Whether you’re looking for face-to-face
+                                or e-learning, we can provide the flexibility
+                                you need with our huge network of approved
+                                training providers from worldwide.
                             </p>
                         </div>
                     </div>
@@ -35,13 +39,15 @@ const IoshMs = () => {
                     <div className='row m-2'>
                         <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 border py-3 pt-3 rounded'>
                             <div className='single-information'>
-                                <h4>IOSH Managing Safely</h4>
+                                <h4>IOSH Managing Safety</h4>
                                 <p>
-                                    IOSH MS is a UK based certification that has
-                                    a high demanding base in Bangladesh. IOSH
-                                    helps professionals to assess occupational
-                                    hazards, and maintain appropriate health and
-                                    safety
+                                    BESI Private Limited is accredited in
+                                    providing training for IOSH Managing Safely
+                                    in Bangladesh and in global grounds. Whether
+                                    you’re looking for face-to-face or
+                                    e-learning, we can provide the flexibility
+                                    you need with our huge network of approved
+                                    training providers from worldwide.
                                 </p>
                                 <br />
                                 {/* 02 */}
@@ -50,19 +56,45 @@ const IoshMs = () => {
                                     <div className='main-list'>
                                         <ul className='list-group'>
                                             <li className='list-group-item'>
+                                                • To improve the safety
+                                                awareness culture in your
+                                                organization, see your
+                                                productivity increase and
+                                                enhance your reputation within
+                                                your supply chain by embedding
+                                                safety and health across the
+                                                whole organization.
+                                            </li>
+                                            <li className='list-group-item'>
                                                 • To make people understand
                                                 about the importance of safety
-                                                at work place.
+                                                at work place and ensures you
+                                                understand your own
+                                                responsibilities for safety and
+                                                health.
                                             </li>
                                             <li className='list-group-item'>
                                                 • To encourage employees for
-                                                maintaining health safety while
-                                                working.
+                                                maintaining health and safety
+                                                while working.
                                             </li>
                                             <li className='list-group-item'>
                                                 • To educate managers and
                                                 supervisors to monitor and
-                                                control risk.
+                                                control the risk.
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • To ensure you can assess and
+                                                control risks and hazards.
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • Enables you to investigate
+                                                incidents and empowers you to
+                                                measure your own performance.
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • Allows for personal
+                                                reflections on good practice.
                                             </li>
                                         </ul>
                                     </div>
@@ -71,13 +103,12 @@ const IoshMs = () => {
                                 <div className='course-content pt-3'>
                                     <h5>Who can attend?</h5>
                                     <p>
-                                        As this course is about safety issues,
-                                        anyone from any background and
-                                        organization can attend this course.
+                                        Anyone from any background and
+                                        professionals can attend this course.
                                     </p>
 
                                     <div className='main-list'>
-                                        <h5>Course Content</h5>
+                                        <h5>Course Module:</h5>
                                         <ul className='list-group'>
                                             <li className='list-group-item'>
                                                 Module 1: Introducing managing
@@ -113,46 +144,6 @@ const IoshMs = () => {
 
                         <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 border py-3 pt-3 rounded'>
                             <div className='single-information'>
-                                <h4>Course Requirements</h4>
-                                <p>No pre-requisites</p>
-                                <br />
-                                {/* 02 */}
-                                <div className='details-info'>
-                                    <h5>Objectives</h5>
-                                    <p>
-                                        After completing the course, a trainee
-                                        will be entitled to:
-                                    </p>
-                                    <div className='main-list'>
-                                        <ul className='list-group'>
-                                            <li className='list-group-item'>
-                                                • International recognition and
-                                                better career prospects
-                                            </li>
-                                            <li className='list-group-item'>
-                                                • Ability to recognize health &
-                                                safety hazards present in the
-                                                workplace, and sound knowledge
-                                                to control risks.
-                                            </li>
-                                            <li className='list-group-item'>
-                                                • Ability to investigate
-                                                incidents, and take remedial
-                                                action.
-                                            </li>
-                                            <li className='list-group-item'>
-                                                • Ability to implement legal
-                                                requirements, and serve the
-                                                society in a better way.
-                                            </li>
-                                            <li className='list-group-item'>
-                                                • Capability to promote
-                                                company-wide safety awareness
-                                                culture.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
                                 {/* 02 */}
                                 <div className='course-content pt-3'>
                                     <h5>Assessment</h5>
@@ -160,10 +151,11 @@ const IoshMs = () => {
                                     <div className='main-list'>
                                         <ul className='list-group'>
                                             <li className='list-group-item'>
-                                                • MCQ
+                                                • MCQ - 60 marks
                                             </li>
                                             <li className='list-group-item'>
-                                                • Risk assessment test
+                                                • Risk assessment test – 40
+                                                marks
                                             </li>
                                         </ul>
                                     </div>
@@ -197,57 +189,49 @@ const IoshMs = () => {
                                             </li>
                                         </ul>
                                     </div>
+                                    <div className='main-list pt-3'>
+                                        <h5 className=''>Course Duration</h5>
+                                        <ul className='list-group'>
+                                            <li className='list-group-item'>
+                                                • 5 days course
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • Online/ Offline classes
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className='main-list pt-3'>
+                                        <h5 className=''>
+                                            Course Fee (Variable)
+                                        </h5>
+                                        <ul className='list-group'>
+                                            <li className='list-group-item'>
+                                                • 15,000/- to 20,000/- (approx.
+                                                USD 240)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className='main-list'>
+                                        <h5>Why BESI?</h5>
+                                        <ul className='list-group'>
+                                            <li className='list-group-item'>
+                                                • BESI Private Limited is IOSH
+                                                MS Accredited
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • First IOSH Approved Training
+                                                Provider
+                                            </li>
+                                            <li className='list-group-item'>
+                                                • Provides high quality animated
+                                                graphics and better quality
+                                                presentation material.
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className='row m-2'>
-                        <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
-                            <div className='main-list'>
-                                <h5>Why BESI?</h5>
-                                <ul className='list-group'>
-                                    <li className='list-group-item'>
-                                        • BESI Private Limited is IOSH MS
-                                        Accredited
-                                    </li>
-                                    <li className='list-group-item'>
-                                        • First IOSH Approved Training Provider
-                                    </li>
-                                    <li className='list-group-item'>
-                                        • Provides high quality animated
-                                        graphics and better quality presentation
-                                        material.
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className='main-list pt-3'>
-                                <h5 className=''>Course Duration</h5>
-                                <ul className='list-group'>
-                                    <li className='list-group-item'>
-                                        • 5 days course
-                                    </li>
-                                    <li className='list-group-item'>
-                                        • Online/ Offline classes
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className='main-list pt-3'>
-                                <h5 className=''>Course Fee:</h5>
-                                <ul className='list-group'>
-                                    <li className='list-group-item'>
-                                        Course Fee: 20,000 BDT (approx. USD 240)
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className='button-div '>
-                            <Link to='/payment' target='_blank'>
-                                <button className='btn btn-main btn-lg btn-block'>
-                                    Pay Course
-                                </button>
-                            </Link>
                         </div>
                     </div>
                 </div>

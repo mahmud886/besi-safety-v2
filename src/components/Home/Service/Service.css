@@ -1,8 +1,10 @@
 .col-md-3 img {
-    width: 105px;
-    height: 100px;
+    width: 105px !important;
+    height: 100px !important;
 }
 .service-single-assets {
+    /* width: 500px;
+    height: 200px; */
     transition: all 0.5s;
 }
 .service-single-assets:hover {

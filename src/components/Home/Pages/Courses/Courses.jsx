@@ -16,38 +16,39 @@ const Courses = () => {
                         SAFETY SHORT COURSES
                     </h4>
                     <div className='row pt-5 mx-auto'>
-                        {/* <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                        <div className='single-courses shadow-sm'>
-                            <div
-                                className='card mx-auto mb-4'
-                                style={{ width: '300px' }}>
-                                <h5 className='card-header navbar-color text-white text-center'>
-                                    NEBOSH
-                                </h5>
-                                <div className='card-body'>
-                                    <h5 className='card-title'>
-                                        National Examinition Board in
-                                        Occupational Safety and Health.
+                        <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+                            <div className='single-courses shadow-sm'>
+                                <div
+                                    className='card mx-auto mb-4'
+                                    style={{ width: '300px' }}>
+                                    <h5 className='card-header navbar-color text-white text-center'>
+                                        NEBOSH
                                     </h5>
-                                    <hr className='navbar-color' />
-                                    <p className='card-text'>
-                                        NEBOSH which means National Examination
-                                        Board in Occupational Safety and Health,
-                                        are UK based awarding body that provides
-                                        various online courses to the student.
-                                    </p>
-                                    <hr className='navbar-color' />
-                                    <Link to='/courses/nebosh'>
-                                        <button
-                                            className='btn btn-main btn-md'
-                                            type='button'>
-                                            SEE DETAILS
-                                        </button>
-                                    </Link>
+                                    <div className='card-body'>
+                                        <h5 className='card-title'>
+                                            National Examinition Board in
+                                            Occupational Safety and Health.
+                                        </h5>
+                                        <hr className='navbar-color' />
+                                        <p className='card-text'>
+                                            NEBOSH which means National
+                                            Examination Board in Occupational
+                                            Safety and Health, are UK based
+                                            awarding body that provides various
+                                            online courses to the student.
+                                        </p>
+                                        <hr className='navbar-color' />
+                                        <Link to='/courses/nebosh'>
+                                            <button
+                                                className='btn btn-main btn-md'
+                                                type='button'>
+                                                SEE DETAILS
+                                            </button>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div> */}
 
                         <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className='single-courses shadow-sm'>

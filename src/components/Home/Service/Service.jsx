@@ -8,16 +8,40 @@ import aosh from '../../../assets/images/services/service4.jpg';
 
 const Service = () => {
     return (
-        <div className='container-fluid pt-5 py-5'>
+        <div className='container pt-5 py-5'>
             <div className='row'>
-                <div className='col-md-6 col-sm-12 col-xl-3 '>
+                <div className='col-md-4 col-sm-12 col-xl-4  text-center'>
                     <div className='service-single-assets rounded shadow-sm navbar-color p-4 mb-3'>
                         <div className='row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 py-2'>
                                 <img
                                     src=''
                                     alt=''
-                                    className='rounded img-thumbnail'
+                                    className='rounded'
+                                    width='105'
+                                    height='105'
+                                />
+                            </div>
+                            <div className='col-md-8'>
+                                <h4>NEBOSH</h4>
+                                <p>
+                                    National Examinition Board in Occupational
+                                    Safety and Health.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-md-4 col-sm-12 col-xl-4 text-center'>
+                    <div className='service-single-assets rounded shadow-sm navbar-color p-4 mb-3'>
+                        <div className='row'>
+                            <div className='col-md-4 py-2'>
+                                <img
+                                    src=''
+                                    alt=''
+                                    className='rounded '
+                                    width='105'
+                                    height='105'
                                 />
                             </div>
                             <div className='col-md-8'>
@@ -28,14 +52,16 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className='col-md-6 col-sm-12 col-xl-3'>
+                <div className='col-md-4 col-sm-12 col-xl-4 text-center'>
                     <div className='service-single-assets rounded shadow-sm navbar-color p-4 mb-3'>
                         <div className='row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 py-2'>
                                 <img
                                     src={iosh}
                                     alt=''
-                                    className='rounded img-thumbnail'
+                                    className='rounded '
+                                    width='105'
+                                    height='105'
                                 />
                             </div>
                             <div className='col-md-8'>
@@ -46,14 +72,16 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className='col-md-6 col-sm-12 col-xl-3 '>
+                <div className='col-md-4 col-sm-12 col-xl-4 text-center'>
                     <div className='service-single-assets navbar-color rounded shadow-sm p-4 mb-3'>
                         <div className='row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 py-2'>
                                 <img
                                     src={highfield}
                                     alt=''
-                                    className='rounded img-thumbnail'
+                                    className='rounded '
+                                    width='105'
+                                    height='105'
                                 />
                             </div>
                             <div className='col-md-8'>
@@ -64,14 +92,16 @@ const Service = () => {
                     </div>
                 </div>
 
-                <div className='col-md-4 col-sm-12 col-xl-3 '>
+                <div className='col-md-4 col-sm-12 col-xl-4 text-center '>
                     <div className='service-single-assets navbar-color rounded shadow-sm p-4 mb-3'>
                         <div className='row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 py-2'>
                                 <img
                                     src={aosh}
                                     alt=''
-                                    className='rounded img-thumbnail'
+                                    className='rounded '
+                                    width='105'
+                                    height='105'
                                 />
                             </div>
                             <div className='col-md-8'>
@@ -81,14 +111,16 @@ const Service = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-6 col-sm-12 col-xl-3 '>
+                <div className='col-md-4 col-sm-12 col-xl-4 text-center'>
                     <div className='service-single-assets navbar-color rounded shadow-sm p-4 mb-3'>
                         <div className='row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 py-2'>
                                 <img
                                     src=''
                                     alt=''
-                                    className='rounded img-thumbnail'
+                                    className='rounded'
+                                    width='105'
+                                    height='105'
                                 />
                             </div>
                             <div className='col-md-8'>

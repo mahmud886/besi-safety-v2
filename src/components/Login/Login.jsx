@@ -2,9 +2,6 @@ import React, { useContext, useEffect, useState } from 'react';
 
 import './Login.css';
 import Logo from '../../assets/images/logo.png';
-import * as firebase from 'firebase/app';
-
-import fire from '../../fire';
 
 import {
     getAuth,
@@ -15,7 +12,6 @@ import {
 } from 'firebase/auth';
 import { userContext } from '../../App';
 import { useHistory, useLocation } from 'react-router';
-import Elearning from '../Home/Pages/Elearning/Elearning';
 
 const Login = () => {
     const [loggedInUser, setLloggedInUser] = useContext(userContext);
@@ -29,11 +25,6 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [emailError, setEmailError] = useState('');
     const [passwordError, setPasswordError] = useState('');
-    const [hasAccount, setHasAccount] = useState(false);
-
-    // if (firebase.length === 0) {
-    //     firebase(fire);
-    // }
 
     const clearInputs = () => {
         setEmail('');

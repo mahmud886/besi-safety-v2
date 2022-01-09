@@ -15,7 +15,7 @@ import Result from './components/Home/Pages/Result/Result';
 import Contact from './components/Home/Pages/Contact/Contact';
 import ErrorPage from './components/Home/Pages/ErrorPage/ErrorPage';
 import Footer from './components/Home/Footer/Footer';
-// import Nebosh from './components/Home/Pages/Courses/CourseDetails/Nebosh';
+import Nebosh from './components/Home/Pages/Courses/CourseDetails/Nebosh';
 import IoshMs from './components/Home/Pages/Courses/CourseDetails/IoshMs';
 import Iso1 from './components/Home/Pages/Courses/CourseDetails/Iso1';
 import Iso2 from './components/Home/Pages/Courses/CourseDetails/Iso2';
@@ -26,7 +26,7 @@ import Aosh from './components/Home/Pages/Courses/CourseDetails/Aosh';
 import MainForm from './components/Home/UpcomingBatch/MainForm';
 import BlogDetails from './components/Home/Pages/Blog/BlogDetails';
 import SocialBar from './components/Home/SocialBar/SocialBar';
-import Elearning from './components/Home/Pages/Elearning/Elearning';
+// import Elearning from './components/Home/Pages/Elearning/Elearning';
 import PaymentForm from './components/Home/Payment/PaymentForm';
 import SuccessPage from './components/Home/Payment/SuccessPage';
 import FailurePage from './components/Home/Payment/FailurePage';
@@ -41,8 +41,8 @@ import Hero from './components/Login/Hero';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ElearningMain from './components/Home/Pages/Elearning/ElearningMain';
 import ElearnIso1 from './components/Home/Pages/Elearning/ElearingPages/ElearnIso1';
-import ElearnOsha from './components/Home/Pages/Elearning/ElearingPages/ElearnOsha';
-import ElearnWorkHeight from './components/Home/Pages/Elearning/ElearingPages/ElearnWorkHeight';
+// import ElearnOsha from './components/Home/Pages/Elearning/ElearingPages/ElearnOsha';
+// import ElearnWorkHeight from './components/Home/Pages/Elearning/ElearingPages/ElearnWorkHeight';
 import ElearnIosh from './components/Home/Pages/Elearning/ElearingPages/ElearnIosh';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -74,6 +74,7 @@ function App() {
                             component={CancelledPage}
                         />
                         <Route path='/courses' exact component={Courses} />
+                        <Route path='/courses/nebosh' component={Nebosh} />
                         <Route path='/courses/ioshms' component={IoshMs} />
                         <Route path='/courses/iso1' component={Iso1} />
                         <Route path='/courses/iso2' component={Iso2} />
