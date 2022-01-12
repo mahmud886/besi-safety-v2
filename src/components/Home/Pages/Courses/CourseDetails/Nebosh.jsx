@@ -1,6 +1,7 @@
 import React from 'react';
 
 import NebosModal from './NebosModal';
+import neboshCertificate from '../../../../../assets/nesbosh-certificate.jpeg';
 
 const Nebosh = () => {
     return (
@@ -19,43 +20,62 @@ const Nebosh = () => {
             <div className='container'>
                 <div className='nebosh-header pt-5 py-5'>
                     <h2 className='text-center p-3 rounded h1'>NEBOSH IGC</h2>
-                    <div className='row'>
+                    <div className='row m-2'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
-                            <p className=' text-center'>
-                                NEBOSH International General Certificate is one
-                                of the fastest growing qualifications in the
-                                field of health and safety. This brings an
-                                enthusiastic demand for this course all over the
-                                world. BESI Private Limited is the leading body
-                                to provide NEBOSH IGC training from Bangladesh,
-                                to the train ees worldwide. Every session, BESI
-                                registers candidates from Dubai, Singapore,
-                                Qatar, Oman, India, Pakistan and Bangladesh.
-                            </p>
-                            <NebosModal />
+                            <div className='row border py-3 pt-3 rounded'>
+                                <div className='col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 '>
+                                    <p className=''>
+                                        NEBOSH International General Certificate
+                                        is one of the fastest growing
+                                        qualifications in the field of health
+                                        and safety. This brings an enthusiastic
+                                        demand for this course all over the
+                                        world. BESI Private Limited is the
+                                        leading body to provide NEBOSH IGC
+                                        training from Bangladesh, to the train
+                                        ees worldwide. Every session, BESI
+                                        registers candidates from Dubai,
+                                        Singapore, Qatar, Oman, India, Pakistan
+                                        and Bangladesh.
+                                    </p>
+                                    <div className='single-information'>
+                                        <h4>
+                                            NATIONAL EXAMINATION BOARD IN
+                                            OCCUPATIONAL SAFETY AND HEALTH
+                                        </h4>
+                                        <p>
+                                            The NEBOSH International General
+                                            Certificate in Occupational Health &
+                                            Safety Training course is done to
+                                            implement safety system in various
+                                            industrial factories and projects.
+                                            This course is based on the UK's
+                                            world leading standard. NEBOSH IGC
+                                            is one of the most recommended
+                                            courses for safety professionals.
+                                            More than 90,000 people around the
+                                            world are holding this prestigious
+                                            certificate.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className='col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                                    <div className='d-flex justify-content-center'>
+                                        <img
+                                            className='shadow-lg '
+                                            src={neboshCertificate}
+                                            alt=''
+                                            width='50%'
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <NebosModal /> */}
                         </div>
                     </div>
 
                     <div className='row m-2'>
                         <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 border py-3 pt-3 rounded'>
-                            <div className='single-information'>
-                                <h4>
-                                    NATIONAL EXAMINATION BOARD IN OCCUPATIONAL
-                                    SAFETY AND HEALTH
-                                </h4>
-                                <p>
-                                    The NEBOSH International General Certificate
-                                    in Occupational Health & Safety Training
-                                    course is done to implement safety system in
-                                    various industrial factories and projects.
-                                    This course is based on the UK's world
-                                    leading standard. NEBOSH IGC is one of the
-                                    most recommended courses for safety
-                                    professionals. More than 90,000 people
-                                    around the world are holding this
-                                    prestigious certificate.
-                                </p>
-                            </div>
                             <div className='details-info'>
                                 <h5>➢ Aim or Purpose(why this course)</h5>
                                 <div className='main-list'>
