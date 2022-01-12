@@ -18,11 +18,21 @@ const Nebosh = () => {
                 <p className='text-center'>courses/nebosh</p>
             </div>
             <div className='container'>
-                <div className='nebosh-header pt-5 py-5'>
-                    <h2 className='text-center p-3 rounded h1'>NEBOSH IGC</h2>
+                <div className='nebosh-header '>
+                    <h2 className='text-center pt-3 rounded h1'>NEBOSH IGC</h2>
                     <div className='row m-2'>
-                        <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5 py-5'>
-                            <div className='row border py-3 pt-3 rounded'>
+                        <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-2 py-5'>
+                            <div className='row rounded'>
+                                <div className='col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                                    <div className='d-flex justify-content-center rounded pb-3'>
+                                        <img
+                                            className='shadow-lg rounded'
+                                            src={neboshCertificate}
+                                            alt=''
+                                            width='85%'
+                                        />
+                                    </div>
+                                </div>
                                 <div className='col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 '>
                                     <p className=''>
                                         NEBOSH International General Certificate
@@ -58,15 +68,223 @@ const Nebosh = () => {
                                             certificate.
                                         </p>
                                     </div>
-                                </div>
-                                <div className='col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12'>
-                                    <div className='d-flex justify-content-center'>
-                                        <img
-                                            className='shadow-lg '
-                                            src={neboshCertificate}
-                                            alt=''
-                                            width='50%'
-                                        />
+                                    <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 py-3 pt-3 rounded'>
+                                        <div className='details-info'>
+                                            <h5>
+                                                ➢ Aim or Purpose(why this
+                                                course)
+                                            </h5>
+                                            <div className='main-list'>
+                                                <ul className='list-group'>
+                                                    <li className='list-group-item'>
+                                                        • Leading and most
+                                                        recognized safety
+                                                        course.
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Most demanding course.
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • This course is the
+                                                        foundation for a secure
+                                                        career in Health &
+                                                        Safety.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div className='course-content pt-3'>
+                                            <h5>➢ Who can attend?</h5>
+                                            <p>
+                                                Anyone with better English
+                                                skills can join this course
+                                                (Fresher, Manager, Supervisor
+                                                and anyone related to health &
+                                                safety background.)
+                                            </p>
+
+                                            <div className='main-list'>
+                                                <h5>➢ Course Content:</h5>
+                                                <ul className='list-group'>
+                                                    <p>
+                                                        <strong>
+                                                            Unit IG1: Management
+                                                            of Health & Safety
+                                                            (Theory Paper)
+                                                        </strong>
+                                                    </p>
+                                                    <li className='list-group-item'>
+                                                        • Why we should manage
+                                                        workplace health &
+                                                        safety
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • How health and safety
+                                                        management systems work
+                                                        and how they look like
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Managing risk-
+                                                        understanding people and
+                                                        processes.
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Health & safety
+                                                        monitoring and measuring
+                                                        unit
+                                                    </li>
+                                                </ul>
+                                                <ul className='list-group pt-3'>
+                                                    <p>
+                                                        <strong>
+                                                            Unit IG2: Risk
+                                                            Assessment
+                                                            (Practical
+                                                            Assessment)
+                                                        </strong>
+                                                    </p>
+                                                    <li className='list-group-item'>
+                                                        • Physical and
+                                                        psychological
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Musculoskeletal health
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • General workplace
+                                                        issues• Work equipment
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Fire
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Electricity
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className='main-list pt-3'>
+                                                <h5>➢ Assessment</h5>
+                                                <ul className='list-group'>
+                                                    <p>
+                                                        <strong>
+                                                            Unit IG1 is assessed
+                                                            by one 24 hours open
+                                                            book exam.
+                                                        </strong>
+                                                    </p>
+                                                    <li className='list-group-item'>
+                                                        • Pass mark: 45
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • online template
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • A MOC Test / Closing
+                                                        Interview will be taken.
+                                                    </li>
+                                                </ul>
+                                                <ul className='list-group'>
+                                                    <p>
+                                                        <strong>
+                                                            Unit IG2 is assessed
+                                                            by a practical
+                                                            assessment.
+                                                        </strong>
+                                                    </p>
+                                                    <li className='list-group-item'>
+                                                        • Electronic submission
+                                                        form
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • No specific Pass/Fail
+                                                        marks
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Result will be either
+                                                        pass or fail
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className='main-list pt-3'>
+                                                <h5 className=''>
+                                                    ➢ Course Duration
+                                                </h5>
+                                                <ul className='list-group'>
+                                                    <li className='list-group-item'>
+                                                        18 classes (additional
+                                                        classes)
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className='main-list pt-3'>
+                                                <h5 className=''>
+                                                    ➢ To get a certificate, one
+                                                    must
+                                                </h5>
+                                                <ul className='list-group'>
+                                                    <li className='list-group-item'>
+                                                        • Have to attend all
+                                                        classes.
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Have to get a pass
+                                                        mark for either IG1 or
+                                                        IG2
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • Have to attend the MOC
+                                                        test.
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className='main-list pt-3'>
+                                                <h5 className=''>
+                                                    ➢ Course Fee:
+                                                </h5>
+                                                <ul className='list-group'>
+                                                    <li className='list-group-item'>
+                                                        Regular Fee: 50,000/-
+                                                        BDT or $580
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className='main-list pt-3'>
+                                                <h5 className=''>
+                                                    ➢ Why BESI?
+                                                </h5>
+                                                <ul className='list-group'>
+                                                    <li className='list-group-item'>
+                                                        • We are known as the
+                                                        global leader in
+                                                        certification, working
+                                                        with clients in
+                                                        virtually any sector.
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • An ISO 45001:2018 from
+                                                        BESI Private Limited
+                                                        will help any
+                                                        organization to improve
+                                                        its’ business
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • BESI has well trained
+                                                        and highly experienced
+                                                        trainer panel.
+                                                    </li>
+                                                    <li className='list-group-item'>
+                                                        • BESI provides easy and
+                                                        spontaneous course
+                                                        materials.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -74,189 +292,7 @@ const Nebosh = () => {
                         </div>
                     </div>
 
-                    <div className='row m-2'>
-                        <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 border py-3 pt-3 rounded'>
-                            <div className='details-info'>
-                                <h5>➢ Aim or Purpose(why this course)</h5>
-                                <div className='main-list'>
-                                    <ul className='list-group'>
-                                        <li className='list-group-item'>
-                                            • Leading and most recognized safety
-                                            course.
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Most demanding course.
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • This course is the foundation for
-                                            a secure career in Health & Safety.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className='course-content pt-3'>
-                                <h5>➢ Who can attend?</h5>
-                                <p>
-                                    Anyone with better English skills can join
-                                    this course (Fresher, Manager, Supervisor
-                                    and anyone related to health & safety
-                                    background.)
-                                </p>
-
-                                <div className='main-list'>
-                                    <h5>➢ Course Content:</h5>
-                                    <ul className='list-group'>
-                                        <p>
-                                            <strong>
-                                                Unit IG1: Management of Health &
-                                                Safety (Theory Paper)
-                                            </strong>
-                                        </p>
-                                        <li className='list-group-item'>
-                                            • Why we should manage workplace
-                                            health & safety
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • How health and safety management
-                                            systems work and how they look like
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Managing risk- understanding
-                                            people and processes.
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Health & safety monitoring and
-                                            measuring unit
-                                        </li>
-                                    </ul>
-                                    <ul className='list-group pt-3'>
-                                        <p>
-                                            <strong>
-                                                Unit IG2: Risk Assessment
-                                                (Practical Assessment)
-                                            </strong>
-                                        </p>
-                                        <li className='list-group-item'>
-                                            • Physical and psychological
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Musculoskeletal health
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • General workplace issues• Work
-                                            equipment
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Fire
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Electricity
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className='main-list pt-3'>
-                                    <h5>➢ Assessment</h5>
-                                    <ul className='list-group'>
-                                        <p>
-                                            <strong>
-                                                Unit IG1 is assessed by one 24
-                                                hours open book exam.
-                                            </strong>
-                                        </p>
-                                        <li className='list-group-item'>
-                                            • Pass mark: 45
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • online template
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • A MOC Test / Closing Interview
-                                            will be taken.
-                                        </li>
-                                    </ul>
-                                    <ul className='list-group'>
-                                        <p>
-                                            <strong>
-                                                Unit IG2 is assessed by a
-                                                practical assessment.
-                                            </strong>
-                                        </p>
-                                        <li className='list-group-item'>
-                                            • Electronic submission form
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • No specific Pass/Fail marks
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Result will be either pass or fail
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className='main-list pt-3'>
-                                    <h5 className=''>➢ Course Duration</h5>
-                                    <ul className='list-group'>
-                                        <li className='list-group-item'>
-                                            18 classes (additional classes)
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className='main-list pt-3'>
-                                    <h5 className=''>
-                                        ➢ To get a certificate, one must
-                                    </h5>
-                                    <ul className='list-group'>
-                                        <li className='list-group-item'>
-                                            • Have to attend all classes.
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Have to get a pass mark for either
-                                            IG1 or IG2
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • Have to attend the MOC test.
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className='main-list pt-3'>
-                                    <h5 className=''>➢ Course Fee:</h5>
-                                    <ul className='list-group'>
-                                        <li className='list-group-item'>
-                                            Regular Fee: 50,000/- BDT or $580
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className='main-list pt-3'>
-                                    <h5 className=''>➢ Why BESI?</h5>
-                                    <ul className='list-group'>
-                                        <li className='list-group-item'>
-                                            • We are known as the global leader
-                                            in certification, working with
-                                            clients in virtually any sector.
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • An ISO 45001:2018 from BESI
-                                            Private Limited will help any
-                                            organization to improve its’
-                                            business
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • BESI has well trained and highly
-                                            experienced trainer panel.
-                                        </li>
-                                        <li className='list-group-item'>
-                                            • BESI provides easy and spontaneous
-                                            course materials.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div className='row m-2'></div>
                 </div>
             </div>
         </div>
