@@ -148,7 +148,7 @@ const Iso2 = () => {
                                                 classes if needed)
                                             </li>
                                             <li className='list-group-item'>
-                                                • Online
+                                                • Offline
                                             </li>
                                         </ul>
                                     </div>

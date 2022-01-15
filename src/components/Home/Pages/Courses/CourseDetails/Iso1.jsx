@@ -143,7 +143,7 @@ const Iso1 = () => {
                                                 classes if needed)
                                             </li>
                                             <li className='list-group-item'>
-                                                • Online
+                                                • Offline
                                             </li>
                                         </ul>
                                     </div>

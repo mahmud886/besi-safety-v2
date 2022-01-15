@@ -148,7 +148,7 @@ const Aosh = () => {
                                                 • 3 days course for each level
                                             </li>
                                             <li className='list-group-item'>
-                                                • Online/ Offline classes
+                                                • Offline classes
                                             </li>
                                         </ul>
                                     </div>

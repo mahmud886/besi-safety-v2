@@ -196,7 +196,7 @@ const IoshMs = () => {
                                                 • 5 days course
                                             </li>
                                             <li className='list-group-item'>
-                                                • Online/ Offline classes
+                                                • Offline classes
                                             </li>
                                         </ul>
                                     </div>
