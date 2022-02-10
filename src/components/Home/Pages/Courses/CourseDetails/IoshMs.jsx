@@ -7,7 +7,6 @@ const IoshMs = () => {
             <div className='py-5 bg-light shadow-sm'>
                 <h2 className=' text-center p-3 rounded h1'>
                     IOSH MS <br />
-                    <h6>APPROVED TRAINING PROVIDER 4589</h6>
                 </h2>
                 <p className='text-center'>courses/ioshms</p>
             </div>
