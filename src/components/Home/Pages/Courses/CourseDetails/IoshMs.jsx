@@ -26,12 +26,12 @@ const IoshMs = () => {
                                 to provide all managers with the confidence and
                                 enthusiasm to apply knowledge to the workplace,
                                 this course is unlike any other. BESI Private
-                                Limited is accredited in providing training for
-                                IOSH Managing Safely in Bangladesh and in global
-                                grounds. Whether you’re looking for face-to-face
-                                or e-learning, we can provide the flexibility
-                                you need with our huge network of approved
-                                training providers from worldwide.
+                                Limited is providing training for IOSH Managing
+                                Safely in Bangladesh and in global grounds.
+                                Whether you’re looking for face-to-face or
+                                e-learning, we can provide the flexibility you
+                                need with our huge network of approved training
+                                providers from worldwide.
                             </p>
                         </div>
                     </div>
@@ -41,13 +41,13 @@ const IoshMs = () => {
                             <div className='single-information'>
                                 <h4>IOSH Managing Safety</h4>
                                 <p>
-                                    BESI Private Limited is accredited in
-                                    providing training for IOSH Managing Safely
-                                    in Bangladesh and in global grounds. Whether
-                                    you’re looking for face-to-face or
-                                    e-learning, we can provide the flexibility
-                                    you need with our huge network of approved
-                                    training providers from worldwide.
+                                    BESI Private Limited is providing training
+                                    for IOSH Managing Safely in Bangladesh and
+                                    in global grounds. Whether you’re looking
+                                    for face-to-face or e-learning, we can
+                                    provide the flexibility you need with our
+                                    huge network of approved training providers
+                                    from worldwide.
                                 </p>
                                 <br />
                                 {/* 02 */}
@@ -215,10 +215,6 @@ const IoshMs = () => {
                                     <div className='main-list'>
                                         <h5>Why BESI?</h5>
                                         <ul className='list-group'>
-                                            <li className='list-group-item'>
-                                                • BESI Private Limited is IOSH
-                                                MS Accredited
-                                            </li>
                                             <li className='list-group-item'>
                                                 • First IOSH Approved Training
                                                 Provider
